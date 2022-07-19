@@ -1,0 +1,645 @@
+.styles__OuterPanel-sc-1okj91t-0, .gWlLSs{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 394px;
+    transition: width 0.3s ease-in-out 0s;
+}
+
+.styles__LeftPanel-sc-1okj91t-1, .dTORaf{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border-right: 1px solid rgb(223, 224, 229);
+    display: block;
+    -webkit-box-pack: unset;
+    justify-content: unset;
+    width: 394px;
+    height: 100%;
+}
+.PanelLayoutStyled__Container-sc-1kjgn7f-0, .dCNiIB{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.PanelLayoutStyled__Header-sc-1kjgn7f-2, .bXsOyr{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    padding: 0px 1rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 5rem;
+}
+.PanelLayoutStyled__TitleWrapper-sc-1kjgn7f-9, .kmDIgC{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.PanelLayoutStyled__Title-sc-1kjgn7f-5, .gzRXxl{
+    color: #212529;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    line-height: 1.2;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px 0.625rem 0px 0px;
+    flex-shrink: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.PanelLayoutStyled__TabsWrapper-sc-1kjgn7f-4, .gsuGvn{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    padding: 0px 1rem;
+}
+.Tabs__RootWrapper-sc-18uh7qo-0, .fQDeyx{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: rgb(238, 238, 240);
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 10px;
+    padding: 4px;
+}
+.Tabs__Tab-sc-18uh7qo-1, .iQRlrO{
+    line-height: 1.5;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    color: rgb(25, 32, 51);
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 100px 80px, rgba(0, 0, 0, 0.02) 0px 41.7776px 33.4221px, rgba(0, 0, 0, 0.02) 0px 22.3363px 17.869px, rgba(0, 0, 0, 0.016) 0px 12.5216px 10.0172px, rgba(0, 0, 0, 0.01) 0px 6.6501px 5.32008px, rgba(0, 0, 0, 0.008) 0px 2.76726px 2.21381px;
+    padding: 12px 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-basis: 100%;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+}
+.Tabs__Tab-sc-18uh7qo-1, .hXTQZy{
+    line-height: 1.5;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    color: rgb(144, 148, 165);
+    border-color: rgb(223, 224, 229);
+    padding: 12px 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-basis: 100%;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+}
+.Tabs__Tab-sc-18uh7qo-1, .hXTQZy{
+    line-height: 1.5;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    color: rgb(144, 148, 165);
+    border-color: rgb(223, 224, 229);
+    padding: 12px 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-basis: 100%;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+}
+.Tabs__Tab-sc-18uh7qo-1, .hXTQZy{
+    line-height: 1.5;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    color: rgb(144, 148, 165);
+    border-color: rgb(223, 224, 229);
+    padding: 12px 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-basis: 100%;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.PanelLayoutStyled__Content-sc-1kjgn7f-1, .idvxor, .panel-content{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    padding: 0px 1rem 1rem;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.subtitle-rows-list{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: relative;
+    height: 455px;
+    width: 361px;
+    overflow: auto;
+    will-change: transform;
+    direction: ltr;
+}
+
+.TextEditorStyled__Group-sc-nw7y0k-5, .dDCwC{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-top: 32px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 140px;
+    width: 100%;
+}
+
+.TextEditorStyled__RootWrapper-sc-nw7y0k-4, .kPLUVP{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border: 1px solid rgb(223, 224, 229);
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: rgb(25, 32, 51);
+    margin-bottom: 0px;
+}
+
+.TextEditorStyled__TextWrapper-sc-nw7y0k-0, .hVKzMM, .subtitle-row{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    direction: ltr;
+    font-family: sans-serif;
+    color: rgb(25, 32, 51);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    padding: 17px;
+}
+
+.TextEditorStyled__TextArea-sc-nw7y0k-1, .iBnmpX{
+    direction: ltr;
+    unicode-bidi: plaintext;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    overflow: auto;
+    max-height: 47px;
+    border: 0px;
+    resize: none;
+    width: 100%;
+    display: block;
+    font-family: sans-serif;
+    color: rgb(25, 32, 51);
+    background: transparent;
+}
+
+.TextEditorStyled__SubtitleRowTools-sc-nw7y0k-2, .dmpmYH{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    direction: ltr;
+    font-family: sans-serif;
+    color: rgb(25, 32, 51);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 39px;
+    border-top: 1px solid rgb(223, 224, 229);
+    padding: 0px 16px;
+}
+
+.TextEditorStyled__ToolGroup-sc-nw7y0k-3, .ehCsrg{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    direction: ltr;
+    font-family: sans-serif;
+    color: rgb(25, 32, 51);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.EditTime__TimeFrom-sc-o7lubo-0, .iLiasP{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    direction: ltr;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(93, 100, 123);
+}
+
+.EditTime__StopwatchButton-sc-o7lubo-2, .eByLQe{
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    background: transparent;
+    appearance: none;
+    outline: none;
+    border: none;
+    padding: 0px;
+    user-select: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    margin-right: 9px;
+}
+
+.TimeInput__StyledInput-sc-3qy9xb-0, .fYJwAF{
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    outline: none;
+    border: none;
+    padding: 0px;
+    max-width: 38px;
+    font-size: 11px;
+    text-align: center;
+    color: rgb(93, 100, 123);
+    background: transparent;
+
+    /* remove addup button type number */
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+.Divider-sc-1gwt5fo-0, .eFbsVf{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    direction: ltr;
+    font-family: sans-serif;
+    color: rgb(25, 32, 51);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 1px;
+    height: 16px;
+    background: rgb(223, 224, 229);
+    margin: 0px 16px;
+}
+.EditTime__TimeTo-sc-o7lubo-1, .jQBLkU{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    direction: ltr;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(93, 100, 123);
+}
+.EditTime__StopwatchButton-sc-o7lubo-2, .eByLQe{
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    background: transparent;
+    appearance: none;
+    outline: none;
+    border: none;
+    padding: 0px;
+    user-select: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    margin-left: 9px;
+}
+.TextEditorStyled__ToolGroup-sc-nw7y0k-3, .ehCsrg{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    direction: ltr;
+    font-family: sans-serif;
+    color: rgb(25, 32, 51);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.CharacterCount__NumberWrapper-sc-g7lcod-0, .PVHVx{
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    direction: ltr;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 11px;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgba(255, 84, 84, 0.1);
+    color: rgb(255, 84, 84);
+    border-radius: 100px;
+    padding: 2px 6px;
+}
+.Divider-sc-1gwt5fo-0, .eFbsVf{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    direction: ltr;
+    font-family: sans-serif;
+    color: rgb(25, 32, 51);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 1px;
+    height: 16px;
+    background: rgb(223, 224, 229);
+    margin: 0px 16px;
+}
+.TextEditorStyled__DeleteButton-sc-nw7y0k-6, .hWVLYj{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    direction: ltr;
+    font-family: sans-serif;
+    color: rgb(25, 32, 51);
+    width: 16;
+    height: 16;
+    fill: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    vertical-align: middle;
+    overflow: hidden;
+    cursor: pointer;
+}
+.InsertSubtitle__RootWrapper-sc-gtdont-0, .bUBmMD{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    height: 17px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+.InsertSubtitle__InsertHighlight-sc-gtdont-1, .knYapm{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    direction: ltr;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    height: 4px;
+    width: 100%;
+}
+
+.InsertSubtitle__RootWrapper-sc-gtdont-0:hover .InsertSubtitle__InsertHighlight-sc-gtdont-1 {
+    background: rgb(239, 249, 255);
+    border-radius: 8px;
+}
+
+.InsertSubtitle__HoverPos-sc-gtdont-2, .kswrWu{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    direction: ltr;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    left: calc(188px);
+    position: absolute;
+    z-index: 10;
+}
+
+.sc-bBHxTw, .huUywf{
+    border: none;
+    background: none;
+    display: none;
+}
+.InsertSubtitle__RootWrapper-sc-gtdont-0:hover .InsertSubtitle__InsertHighlight-sc-gtdont-1 .sc-bBHxTw, .huUywf:hover{
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    border: none;
+    background: none rgb(0, 152, 253);
+    color: rgb(255, 255, 255);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 1000px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 6px;
+}
+
+.AddNewRow__ButtonContainer-sc-yi9wxv-0{
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    background: none;
+    width: 100%;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px 16px;
+    border-radius: 10px;
+    height: 3rem;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-decoration: none;
+    user-select: none;
+    background-color: rgb(247, 247, 248);
+    border: 1px solid rgb(247, 247, 248);
+    color: rgb(25, 32, 51);
+    box-shadow: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.sc-bdvvtL, .PYKWr, .sc-hKwDye, .dfRKuZ{
+    direction: ltr;
+    line-height: inherit;
+    text-transform: none;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    user-select: none;
+    color: rgb(25, 32, 51);
+    cursor: pointer;
+    width: 10;
+    height: 10;
+    fill: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    vertical-align: middle;
+    stroke-width: 2.25px;
+    overflow: visible;
+    margin-right: 8px;
+}

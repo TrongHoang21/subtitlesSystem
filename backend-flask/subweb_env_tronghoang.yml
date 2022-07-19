@@ -1,0 +1,4 @@
+name: subweb_env
+channels:
+  - defaults
+prefix: C:\Users\Admin\anaconda3\envs\subweb_env\envs\subweb_env

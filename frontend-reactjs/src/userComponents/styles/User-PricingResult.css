@@ -1,0 +1,137 @@
+.navbar__logo {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.navbar__button {
+  padding: 12px 26px;
+  border-radius: 8px;
+  background-color: #eeeef0;
+  color: #192033;
+  border: 0;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.buttonSignUp {
+  background-color: #192033;
+  color: #fff;
+}
+
+.Pricingstyled__PricingScreenContainer-1 {
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 400;
+  box-sizing: border-box;
+  font-family: Euclid;
+}
+
+.Pricingstyled__Heading-1 {
+
+
+  box-sizing: border-box;
+  font-size: 3rem;
+  font-family: Euclid;
+  font-weight: 700;
+  line-height: 110%;
+  text-align: center;
+  margin: 7.5rem 0px 2rem;
+}
+
+.Pricingstyled__Subheading-1 {
+
+
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  font-family: Euclid;
+  font-weight: normal;
+  line-height: 150%;
+  text-align: center;
+  white-space: pre;
+}
+
+.Pricingstyled__Heading-3 {
+
+
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  font-family: Euclid;
+  font-weight: 700;
+  line-height: 110%;
+  text-align: center;
+  margin: 7.5rem 0px 2rem;
+}
+
+.PricingTablestyled__IntervalToggleContainer-1{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.IntervalToggle__ToggleContainer-sc-1{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    height: 5rem;
+    width: 22.5rem;
+    border-radius: 999px;
+    background-color: rgb(247, 247, 248);
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.5rem;
+}
+
+.IntervalToggle__ToggleItemContainer-sc-1{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 999px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.IntervalToggle__ItemTitle-sc-1{
+
+    
+    box-sizing: border-box;
+    font-family: Euclid;
+    line-height: 150%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(93, 100, 123);
+    text-align: center;
+    margin: 0px;
+}

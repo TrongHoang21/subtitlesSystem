@@ -1,0 +1,562 @@
+
+.TimelineControlsstyled__Box{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    height: 54px;
+}
+
+.TimelineControlsstyled__Container{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: grid;
+    place-items: baseline center;
+    font-size: 11px;
+    padding: 0.4375rem 2rem 0.875rem;
+    grid-template-columns: repeat(3, 1fr);
+    -webkit-box-align: baseline;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.TimelineControlsstyled__Box-1{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 200px;
+    grid-column: 1 / auto;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    justify-self: start;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.TimelineControlsstyled__Box-2{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    grid-column: 2 / auto;
+}
+
+.TimelineControlsstyled__Box-3, .TimelineControlsstyled__Flex{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 330px;
+    grid-column: 3 / auto;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    justify-self: end;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+
+.commonStyles__Button{
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    text-align: center;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, transform 0.15s ease-in-out 0s;
+    white-space: nowrap;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(93, 100, 123);
+    cursor: pointer;
+}
+
+.commonStyles__Text{
+    user-select: none;
+    line-height: inherit;
+    text-transform: none;
+    text-align: center;
+    white-space: nowrap;
+    color: rgb(93, 100, 123);
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-left: 8px;
+    vertical-align: text-top;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.TimelineControlsstyled__Divider{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(25, 32, 51, 0.1);
+    height: 16px;
+}
+
+.CurrentTime__Container{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-left: 12px;
+    margin-right: 25px;
+    vertical-align: middle;
+    width: 55px;
+    display: inline-block;
+}
+
+.CurrentTime__Text{
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    color: rgb(93, 100, 123);
+}
+
+.commonStyles__Span{
+    line-height: 1.5;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    text-align: center;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, transform 0.15s ease-in-out 0s;
+    white-space: nowrap;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    padding: 4px;
+    border-radius: 8px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(93, 100, 123);
+}
+
+.Zoomstyled__FlexWrapper-1{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.Zoomstyled__FlexWrapper-2{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.sc-bdvvtL, .eoWdFC{
+    user-select: none;
+    line-height: inherit;
+    text-transform: none;
+    text-align: center;
+    white-space: nowrap;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(93, 100, 123);
+    cursor: pointer;
+    width: 18;
+    height: 18;
+    fill: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    vertical-align: middle;
+    stroke-width: 2px;
+    overflow: visible;
+}
+
+.Zoomstyled__SliderWrapper{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 100px;
+}
+
+.Slider__RootWrapper{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-size: 0.75rem;
+    font-weight: 400;
+    width: 100%;
+}
+
+.Slider__ContentWrapper{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    user-select: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.Slider__SliderWrapper{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    user-select: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding: 8px 0px;
+}
+
+.Slider__StyledSlider{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    user-select: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding: 8px 0px;
+}
+
+.slider-handles{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    user-select: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.Handle__HandleButton{
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    position: absolute;
+    left: 49.9914%;
+    margin-left: -8px;
+    margin-top: -7px;
+    padding: 0px;
+    z-index: 2;
+    width: 16px;
+    height: 16px;
+    font-size: 0px;
+    border: 3px solid rgb(0, 152, 253);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 30px, rgba(0, 0, 0, 0.1) 0px 2px 3px;
+    background-color: rgb(255, 255, 255);
+    transition: box-shadow 0.2s ease 0s;
+    cursor: pointer;
+}
+
+.Track-sc-iw16it-0, .hLalaf{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    user-select: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    height: 3px;
+    width: 49.9914%;
+    left: 0%;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: rgb(103, 193, 255);
+}
+
+.Track-sc-iw16it-0, .cEOeOp{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    user-select: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    height: 3px;
+    width: 50.0086%;
+    left: 49.9914%;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: rgb(238, 238, 240);
+}
+
+.commonStyles__Button-fit{
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    text-align: center;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, transform 0.15s ease-in-out 0s;
+    white-space: nowrap;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(93, 100, 123);
+    cursor: pointer;
+}
+
+.TimelineControlsstyled__Divider-2{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(25, 32, 51, 0.1);
+    height: 16px;
+}
+
+.FooterControlsstyled__TimelineWrapper{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1 0%;
+    width: 100%;
+    padding: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 1px;
+    height: calc(100% - 82px);
+    flex-direction: row;
+    align-self: stretch;
+}
+
+.TimelineStyled__OuterContainer{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border-radius: 0.625rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    transition: all 0.3s ease 0s;
+    border: 1px dashed transparent;
+}
+
+.DropWrapperstyled__Wrapper{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border-radius: 0.625rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    transition: all 0.3s ease 0s;
+    border: 1px dashed transparent;
+}
+
+.TimelineStyled__Relative{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.TimelineStyled__Button{
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    background: rgb(223, 224, 229);
+    appearance: none;
+    outline: none;
+    display: block;
+    user-select: none;
+    border-radius: 5px;
+    border: none;
+    color: rgb(93, 100, 123);
+    position: absolute;
+    padding: 0px;
+    opacity: 1;
+    z-index: 0;
+    cursor: pointer;
+    left: 975.039px;
+    top: 34px;
+    width: 54px;
+    height: 54px;
+}
+
+.TimelineStyled__OverlayCanvasStyled{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    user-select: none;
+    aspect-ratio: auto 1295 / 127;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    z-index: 2;
+    pointer-events: none;
+    width: 1036px;
+    height: 102px;
+}

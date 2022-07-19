@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@google-cloud/storage": "^5.19.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase": "^9.7.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "formidable": "^2.0.1",
+    "got": "^12.0.4",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.19.0",
+    "sequelize-cli": "^6.4.1",
+    "update-notifier": "^5.1.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "kl3-backend-w-storage",
+  "version": "1.0.0",
+  "main": "env.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

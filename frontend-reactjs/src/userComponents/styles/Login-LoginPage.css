@@ -1,0 +1,336 @@
+
+.app{
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  overflow-y: auto;
+  position: fixed;
+  width: 100%;
+}
+.LogInPage__Container-sc-1lupdgi-0, .cNexuf{
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  height: 100%;
+  font-family: Euclid, sans-serif;
+}
+.LogInPage__LeftWrapper-sc-1lupdgi-3, .heZZjo{
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 400;
+  font-family: Euclid, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 24px 40px;
+}
+.LogInPage__FormWrapper-sc-1lupdgi-1, .fBwYea{
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Euclid, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 20rem;
+  text-align: center;
+  margin: 0px auto;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+.LoginOrSignupForm__RootWrapper-sc-x0p9og-0, .gihzRa{
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Euclid, sans-serif;
+  text-align: center;
+
+  box-sizing: border-box;
+  width: 100%;
+}
+.styled__Header{
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Euclid, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.styled__Logo-1{
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Euclid, sans-serif;
+  text-align: center;
+  width: 167px;
+  height: 31px;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  margin-bottom: 16px;
+  border-radius: 0;
+}
+
+.styled__Title-1{
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 0;
+  font-family: Euclid, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.25em;
+  margin-bottom: 0.25rem;
+}
+.styled__Subtitle-1{
+  color: #212529;
+  font-family: Euclid, sans-serif;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: .5rem;
+  font-size: 0.875rem;
+}
+
+.LoginOrSignupForm__StyledForm-sc-x0p9og-1, .eiWYJH{
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+}
+.OAuthGoogle__GoogleButton{
+  box-sizing: border-box;
+  line-height: inherit;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  background: none;
+  padding: 16px 24px;
+  width: 100%;
+  border: 1px solid rgb(223, 224, 229);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
+  border-radius: 0.625rem;
+  text-align: left;
+  margin: 32px 0px;
+  cursor: pointer;
+}
+
+.svg-OAuthGoogle__GoogleButton{
+  width: 32px;
+  height: 32px;
+  margin-right: 40px;
+}
+
+.LoginOrSignupForm__Divider-sc-x0p9og-3, .gPJDsB{
+  line-height: 1.5;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(144, 148, 165);
+  margin-bottom: 24px;
+  display: flex;
+  width: 100%;
+}
+.Input__RootWrapper-sc-mdxq3k-0, .kdZnns, .LoginOrSignupForm__StyledInput-sc-x0p9og-5, .irApWU{
+
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.Input__StyledInput-sc-mdxq3k-2, .cibaxs{
+
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  border-radius: 0.5rem;
+  padding: 16px;
+  font-size: inherit;
+  border: 1px solid rgb(223, 224, 229);
+  order: 2;
+  color: rgb(93, 100, 123);
+}
+
+.Input__Label-sc-mdxq3k-1, .bdYPll{
+
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  font-size: 0.75rem;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: rgb(25, 32, 51);
+  margin-bottom: 8px;
+  width: 100%;
+  display: inline-block;
+  order: 1;
+}
+
+
+
+.LoginButton{
+
+  box-sizing: border-box;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  border: none;
+  background: none;
+  width: 100%;
+  background-color: rgb(25, 32, 51);
+  color: rgb(255, 255, 255);
+  border-color: rgb(25, 32, 51);
+  transition: box-shadow 0.2s ease-in-out 0s;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  display: flex;
+  min-width: 87px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  height: auto;
+  padding: 16px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+
+.LoginOrSignupForm__MagicLinkHint-sc-x0p9og-4, .boSaNK{
+
+  line-height: 1.5;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(93, 100, 123);
+  margin: 0px;
+}
+
+
+.FormStyled__Footer-sc-67n526-6, .dCuQEf{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Euclid, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin-top: 32px;
+  text-align: center;
+}
+.TermsAndPrivacyTextstyled__Text-sc-apystf-0, .fRENIZ{
+
+  line-height: 1.5;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(25, 32, 51);
+  margin-bottom: 2rem;
+}
+
+
+
+.styled__BlueLink-sc-1uh77v9-4, .hRKVQr{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Euclid, sans-serif;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  background: none;
+  color: rgb(0, 152, 253);
+}
+
+
+
+
+.LogInPage__Outdoor-sc-1lupdgi-2, .jeOygR{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 400;
+  font-family: Euclid, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background: url("https://veed-assets.b-cdn.net/images/Webflow/Tools/Add%20Photo%20to%20Video/Add%20Photo%20to%20Video.png") right center / 90% no-repeat rgb(247, 247, 248);
+}
+
+
+
+
+
+

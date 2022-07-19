@@ -1,0 +1,1402 @@
+.navbar__logo{
+padding-right:16px;
+padding-left:16px;
+}
+
+.navbar__button{
+padding:12px 26px;
+border-radius:8px;
+background-color:#eeeef0;
+color:#192033;
+border:0;
+margin-right:10px;
+font-size:16px;
+font-weight:400;
+}
+
+.buttonSignUp{
+background-color:#192033;
+color:#fff;
+}
+
+.Pricingstyled__PricingScreenContainer-1{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-family: Euclid;
+}
+
+.Pricingstyled__Heading-sc-ao3m0b-0, .ezYKYQ{
+
+    color: #212529;
+    
+    box-sizing: border-box;
+    font-size: 3rem;
+    font-family: Euclid;
+    font-weight: 700;
+    line-height: 110%;
+    text-align: center;
+    margin: 7.5rem 0px 2rem;
+}
+
+.Pricingstyled__Subheading-sc-ao3m0b-1, .dmOWyn{
+
+    color: #212529;
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 1.125rem;
+    font-family: Euclid;
+    font-weight: normal;
+    line-height: 150%;
+    text-align: center;
+    white-space: pre;
+}
+
+.PricingTablestyled__IntervalToggleContainer-1{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.IntervalToggle__ToggleContainer-sc-1{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    height: 5rem;
+    width: 22.5rem;
+    border-radius: 999px;
+    background-color: rgb(247, 247, 248);
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.5rem;
+}
+
+.IntervalToggle__ToggleItemContainer-sc-1{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 999px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.IntervalToggle__ItemTitle-sc-1{
+
+    
+    box-sizing: border-box;
+    font-family: Euclid;
+    line-height: 150%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(93, 100, 123);
+    text-align: center;
+    margin: 0px;
+}
+
+.IntervalToggle__ToggleItemContainer-sc-2{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 999px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 100px 80px, rgba(0, 0, 0, 0.02) 0px 41.7776px 33.4221px, rgba(0, 0, 0, 0.02) 0px 22.3363px 17.869px, rgba(0, 0, 0, 0.016) 0px 12.5216px 10.0172px, rgba(0, 0, 0, 0.01) 0px 6.6501px 5.32008px, rgba(0, 0, 0, 0.008) 0px 2.76726px 2.21381px;
+}
+
+.IntervalToggle__ItemTitle-sc-2{
+
+    
+    box-sizing: border-box;
+    font-family: Euclid;
+    line-height: 150%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(0, 152, 253);
+    text-align: center;
+    margin: 0px;
+}
+
+.IntervalToggle__ItemExtraTitlte-sc-2{
+
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    font-family: Euclid;
+    color: rgb(103, 193, 255);
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 150%;
+    margin: 0px;
+}
+
+.PricingTablestyled__PricesBasedIn-sc-guu3xh-7, .kLpbun{
+
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    font-size: 0.875rem;
+    line-height: 150%;
+    text-align: center;
+    color: rgb(144, 148, 165);
+    margin: 1rem 0px 4.875rem;
+}
+
+.PricingTablestyled__PricingTableContainer-sc-guu3xh-24, .euxUyk{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: auto auto 5rem;
+}
+
+.PricingTablestyled__OuterGrid-sc-guu3xh-3, .elyAIh{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: auto repeat(42, 40px) 30px;
+    grid-template-columns: 1px repeat(5, minmax(170px, 1fr)) 1px;
+    column-gap: 1rem;
+}
+
+.PricingTablestyled__PlansContainer-1{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    grid-area: 1 / 3 / 2 / 4;
+    padding: 0px 20px;
+}
+
+.PricingTablestyled__PlanContainer-sc-guu3xh-4, .czqDCt{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.PricingTablestyled__PlanTitleContainer-sc-guu3xh-6, .fvXIpj{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.PricingTablestyled__PlanIcon-sc-guu3xh-8, .dMTmVH{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    border-style: none;
+    vertical-align: middle;
+    
+    
+    width: 5rem;
+    height: 5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0px;
+}
+.PricingTablestyled__PlanTitle-sc-guu3xh-9, .gfHoSX{
+
+    text-align: left;
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    font-family: Euclid;
+    font-size: 1.5rem;
+    line-height: 110%;
+    color: rgb(25, 32, 51);
+    text-transform: uppercase;
+}
+
+.PricingTablestyled__PlanDescription-sc-guu3xh-10, .hjioNu{
+
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: Euclid;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    color: rgb(93, 100, 123);
+    text-align: center;
+    white-space: pre-line;
+    margin-bottom: 3.375rem;
+}
+
+.PricingTablestyled__PriceContainer-sc-guu3xh-11, .jvkMrD{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr 2rem;
+    grid-template-areas: "currency price details" "summary summary summary";
+}
+
+.PricingTablestyled__PriceCurrency-sc-guu3xh-12, .gERWBk{
+
+    line-height: 1.5;
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-family: Euclid;
+    font-size: 1.75rem;
+    text-align: right;
+    width: auto;
+    color: rgb(25, 32, 51);
+    grid-area: currency / currency / currency / currency;
+}
+
+.PricingTablestyled__Price-sc-guu3xh-13, .cKjCUC{
+
+    
+    box-sizing: border-box;
+    font-family: Euclid;
+    font-weight: 300;
+    font-size: 3.125rem;
+    line-height: 110%;
+    color: rgb(25, 32, 51);
+    grid-area: price / price / price / price;
+    text-align: center;
+    margin: 0px;
+}
+
+.button_free{
+
+    
+    box-sizing: border-box;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    width: 100%;
+    background: rgb(0, 152, 253);
+    border: 1px solid rgb(0, 152, 253);
+    transition: border 0.2s ease-in-out 0s;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 48px;
+    padding: 0px 16px;
+    display: flex;
+    min-width: 87px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    user-select: none;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.PricingTablestyled__CTAText-sc-guu3xh-0, .gVLvJp{
+
+    
+    box-sizing: border-box;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    width: 100%;
+    background: rgb(0, 152, 253);
+    border: 1px solid rgb(0, 152, 253);
+    transition: border 0.2s ease-in-out 0s;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 48px;
+    padding: 0px 16px;
+    display: flex;
+    min-width: 87px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    user-select: none;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.PricingTablestyled__PlansContainer-2{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    grid-area: 1 / 4 / 2 / 5;
+    padding: 0px 20px;
+}
+
+.PricingTablestyled__PlanContainer-sc-guu3xh-4, .czqDCt{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.PricingTablestyled__PlanTitleContainer-sc-guu3xh-6, .fvXIpj{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.PricingTablestyled__PlanIcon-sc-guu3xh-8, .dMTmVH{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    border-style: none;
+    vertical-align: middle;
+    
+    
+    width: 5rem;
+    height: 5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0px;
+}
+.PricingTablestyled__PlanTitle-sc-guu3xh-9, .gfHoSX{
+
+    text-align: left;
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    font-family: Euclid;
+    font-size: 1.5rem;
+    line-height: 110%;
+    color: rgb(25, 32, 51);
+    text-transform: uppercase;
+}
+
+.PricingTablestyled__PlanDescription-sc-guu3xh-10, .hjioNu{
+
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: Euclid;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    color: rgb(93, 100, 123);
+    text-align: center;
+    white-space: pre-line;
+    margin-bottom: 3.375rem;
+}
+
+.PricingTablestyled__PriceContainer-sc-guu3xh-11, .jvkMrD{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr 2rem;
+    grid-template-areas: "currency price details" "summary summary summary";
+}
+
+.PricingTablestyled__PriceCurrency-sc-guu3xh-12, .gERWBk{
+
+    line-height: 1.5;
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-family: Euclid;
+    font-size: 1.75rem;
+    text-align: right;
+    width: auto;
+    color: rgb(25, 32, 51);
+    grid-area: currency / currency / currency / currency;
+}
+
+.PricingTablestyled__Price-sc-guu3xh-13, .cKjCUC{
+
+    
+    box-sizing: border-box;
+    font-family: Euclid;
+    font-weight: 300;
+    font-size: 3.125rem;
+    line-height: 110%;
+    color: rgb(25, 32, 51);
+    grid-area: price / price / price / price;
+    text-align: center;
+    margin: 0px;
+}
+
+.PricingTablestyled__PriceDetailsBox-sc-guu3xh-14, .eMVSiQ{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    grid-area: details / details / details / details;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    -webkit-box-align: end;
+    align-items: end;
+}
+
+.PricingTablestyled__PriceDiscountContainer-sc-guu3xh-15, .ejQkYM{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: inline-block;
+    background: rgba(255, 84, 84, 0.1);
+    border-radius: 10000px;
+    padding: 4px 6px;
+    width: auto;
+    max-width: 3rem;
+}
+
+.PricingTablestyled__PriceDiscount-sc-guu3xh-16, .fboSOf{
+
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    position: relative;
+    font-family: Euclid;
+    font-size: 0.875rem;
+    line-height: 110%;
+    color: rgb(255, 84, 84);
+    text-align: center;
+    align-self: flex-start;
+    width: 100%;
+    margin: 0px;
+}
+
+.PricingTablestyled__PriceMonthlyLabel-sc-guu3xh-17, .bIgtkg{
+
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: Euclid;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 110%;
+    color: rgb(25, 32, 51);
+    place-self: flex-end flex-start;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.PricingTablestyled__PriceSummary-sc-guu3xh-18, .Teguw{
+
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: Euclid;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 0.9375rem;
+    color: rgb(25, 32, 51);
+    grid-area: summary / summary / summary / summary;
+    margin-bottom: 1.5rem;
+    white-space: pre-line;
+}
+
+.button_gobasic{
+
+    
+    box-sizing: border-box;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    width: 100%;
+    background: rgb(0, 152, 253);
+    border: 1px solid rgb(0, 152, 253);
+    transition: border 0.2s ease-in-out 0s;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 48px;
+    padding: 0px 16px;
+    display: flex;
+    min-width: 87px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    user-select: none;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.PricingTablestyled__CTAText-sc-guu3xh-0, .gVLvJp{
+
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    user-select: none;
+    cursor: pointer;
+    
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Euclid;
+    font-weight: 400;
+    line-height: 15.4px;
+}
+
+.PricingTablestyled__PlansContainer-3{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    grid-area: 1 / 5 / 2 / 6;
+    padding: 0px 20px;
+}
+
+.PricingTablestyled__PlanContainer-sc-guu3xh-4, .czqDCt{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.PricingTablestyled__PlanTitleContainer-sc-guu3xh-6, .fvXIpj{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.PricingTablestyled__PlanIcon-sc-guu3xh-8, .dMTmVH{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    border-style: none;
+    vertical-align: middle;
+    
+    
+    width: 5rem;
+    height: 5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0px;
+}
+.PricingTablestyled__PlanTitle-sc-guu3xh-9, .gfHoSX{
+
+    text-align: left;
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    font-family: Euclid;
+    font-size: 1.5rem;
+    line-height: 110%;
+    color: rgb(25, 32, 51);
+    text-transform: uppercase;
+}
+
+.PricingTablestyled__PlanDescription-sc-guu3xh-10, .hjioNu{
+
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: Euclid;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    color: rgb(93, 100, 123);
+    text-align: center;
+    white-space: pre-line;
+    margin-bottom: 3.375rem;
+}
+
+.PricingTablestyled__PriceContainer-sc-guu3xh-11, .jvkMrD{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr 2rem;
+    grid-template-areas: "currency price details" "summary summary summary";
+}
+
+.PricingTablestyled__PriceCurrency-sc-guu3xh-12, .gERWBk{
+
+    line-height: 1.5;
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-family: Euclid;
+    font-size: 1.75rem;
+    text-align: right;
+    width: auto;
+    color: rgb(25, 32, 51);
+    grid-area: currency / currency / currency / currency;
+}
+
+.PricingTablestyled__Price-sc-guu3xh-13, .cKjCUC{
+
+    
+    box-sizing: border-box;
+    font-family: Euclid;
+    font-weight: 300;
+    font-size: 3.125rem;
+    line-height: 110%;
+    color: rgb(25, 32, 51);
+    grid-area: price / price / price / price;
+    text-align: center;
+    margin: 0px;
+}
+
+.PricingTablestyled__PriceDetailsBox-sc-guu3xh-14, .eMVSiQ{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    grid-area: details / details / details / details;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    -webkit-box-align: end;
+    align-items: end;
+}
+
+.PricingTablestyled__PriceDiscountContainer-sc-guu3xh-15, .ejQkYM{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: inline-block;
+    background: rgba(255, 84, 84, 0.1);
+    border-radius: 10000px;
+    padding: 4px 6px;
+    width: auto;
+    max-width: 3rem;
+}
+
+.PricingTablestyled__PriceDiscount-sc-guu3xh-16, .fboSOf{
+
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    position: relative;
+    font-family: Euclid;
+    font-size: 0.875rem;
+    line-height: 110%;
+    color: rgb(255, 84, 84);
+    text-align: center;
+    align-self: flex-start;
+    width: 100%;
+    margin: 0px;
+}
+
+.PricingTablestyled__PriceMonthlyLabel-sc-guu3xh-17, .bIgtkg{
+
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: Euclid;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 110%;
+    color: rgb(25, 32, 51);
+    place-self: flex-end flex-start;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.PricingTablestyled__PriceSummary-sc-guu3xh-18, .Teguw{
+
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: Euclid;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 0.9375rem;
+    color: rgb(25, 32, 51);
+    grid-area: summary / summary / summary / summary;
+    margin-bottom: 1.5rem;
+    white-space: pre-line;
+}
+
+.button_gopro{
+
+    
+    box-sizing: border-box;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    width: 100%;
+    background: rgb(0, 152, 253);
+    border: 1px solid rgb(0, 152, 253);
+    transition: border 0.2s ease-in-out 0s;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 48px;
+    padding: 0px 16px;
+    display: flex;
+    min-width: 87px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    user-select: none;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.PricingTablestyled__CTAText-sc-guu3xh-0, .gVLvJp{
+
+    
+    box-sizing: border-box;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    width: 100%;
+    background: rgb(0, 152, 253);
+    border: 1px solid rgb(0, 152, 253);
+    transition: border 0.2s ease-in-out 0s;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 48px;
+    padding: 0px 16px;
+    display: flex;
+    min-width: 87px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    user-select: none;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.PricingTablestyled__PlansContainer-sc-guu3xh-5, .bLMsCX{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    grid-area: 1 / 6 / 2 / 7;
+    padding: 0px 20px;
+}
+
+.PricingTablestyled__PlanContainer-sc-guu3xh-4, .czqDCt{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.PricingTablestyled__PlanTitleContainer-sc-guu3xh-6, .fOOLIr{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.PricingTablestyled__PlanIcon-sc-guu3xh-8, .iJFPew{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    border-style: none;
+    vertical-align: middle;
+    
+    
+    width: 5rem;
+    height: 5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 12px;
+}
+.PricingTablestyled__PlanTitle-sc-guu3xh-9, .gfHoSX{
+
+    text-align: left;
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    font-family: Euclid;
+    font-size: 1.5rem;
+    line-height: 110%;
+    color: rgb(25, 32, 51);
+    text-transform: uppercase;
+}
+
+.PricingTablestyled__PlanDescription-sc-guu3xh-10, .hjioNu{
+
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: Euclid;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    color: rgb(93, 100, 123);
+    text-align: center;
+    white-space: pre-line;
+    margin-bottom: 3.375rem;
+}
+
+.PricingTablestyled__PriceSummary-sc-guu3xh-18, .Teguw{
+
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: Euclid;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 0.9375rem;
+    color: rgb(25, 32, 51);
+    grid-area: summary / summary / summary / summary;
+    margin-bottom: 1.5rem;
+    white-space: pre-line;
+}
+
+.button_contactus{
+
+    
+    box-sizing: border-box;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    border: none;
+    background: none;
+    width: 100%;
+    background-color: rgb(25, 32, 51);
+    color: rgb(255, 255, 255);
+    border-color: rgb(25, 32, 51);
+    transition: box-shadow 0.2s ease-in-out 0s;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 48px;
+    padding: 0px 16px;
+    display: flex;
+    min-width: 87px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    user-select: none;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.PricingTablestyled__CTAText{
+
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    user-select: none;
+    cursor: pointer;
+    
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Euclid;
+    font-weight: 400;
+    line-height: 15.4px;
+}
+
+.PricingTablestyled__FeatureCategoryTitle-sc-guu3xh-19, .lbirfO{
+
+    color: #212529;
+    text-align: left;
+    
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-family: Euclid;
+    font-weight: 500;
+    line-height: 110%;
+    margin: 0px;
+}
+
+.PricingTablestyled__FeaturesGrid-sc-guu3xh-2-cEZBLu{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: grid;
+    grid-area: 5 / 1 / 6 / 8;
+    grid-template-columns: 1px repeat(5, minmax(170px, 1fr)) 1px;
+    column-gap: 1rem;
+}
+
+.PricingTablestyled__FeatureRow-sc-guu3xh-1, .jfOeCd{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    grid-column: 2 / 3;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.PricingTablestyled__FeatureLabel-sc-guu3xh-20, .cNnCSy{
+
+    color: #212529;
+    text-align: left;
+    
+    box-sizing: border-box;
+    font-size: 0.875rem;
+    font-family: Euclid;
+    font-weight: 500;
+    line-height: 1.125rem;
+    margin: 0px;
+}
+
+.PricingTablestyled__FeatureText-sc-guu3xh-21, .keDvcT{
+
+    font-weight: 400;
+    
+    box-sizing: border-box;
+    color: rgb(93, 100, 123);
+    font-size: 0.875rem;
+    font-family: Euclid;
+    line-height: 1.125rem;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+
+.PricingTablestyled__FeaturesGrid-sc-guu3xh-2-jcEGuA{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: grid;
+    grid-area: 6 / 1 / 7 / 8;
+    grid-template-columns: 1px repeat(5, minmax(170px, 1fr)) 1px;
+    column-gap: 1rem;
+}.PricingTablestyled__FeaturesGrid-sc-guu3xh-2-cBjpmK{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: grid;
+    grid-area: 7 / 1 / 8 / 8;
+    grid-template-columns: 1px repeat(5, minmax(170px, 1fr)) 1px;
+    column-gap: 1rem;
+}
+
+.PricingTablestyled__FeaturesGrid-sc-guu3xh-2-hzyjUc{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: grid;
+    grid-area: 8 / 1 / 9 / 8;
+    grid-template-columns: 1px repeat(5, minmax(170px, 1fr)) 1px;
+    column-gap: 1rem;
+}
+
+.PricingTablestyled__FeaturesGrid-sc-guu3xh-2-kIfdHV{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: grid;
+    grid-area: 9 / 1 / 10 / 8;
+    grid-template-columns: 1px repeat(5, minmax(170px, 1fr)) 1px;
+    column-gap: 1rem;
+}
+
+.PricingTablestyled__FeaturesGrid-sc-guu3xh-2-gLnRXM{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: grid;
+    grid-area: 10 / 1 / 11 / 8;
+    grid-template-columns: 1px repeat(5, minmax(170px, 1fr)) 1px;
+    column-gap: 1rem;
+}
+
+.PricingTablestyled__FeaturesGrid-sc-guu3xh-2-lbVYlS{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: grid;
+    grid-area: 11 / 1 / 12 / 8;
+    grid-template-columns: 1px repeat(5, minmax(170px, 1fr)) 1px;
+    column-gap: 1rem;
+}.PricingTablestyled__FeaturesGrid-sc-guu3xh-2-fSYeRo{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: grid;
+    grid-area: 12 / 1 / 13 / 8;
+    grid-template-columns: 1px repeat(5, minmax(170px, 1fr)) 1px;
+    column-gap: 1rem;
+}
+
+.PricingTablestyled__FeaturesGrid-sc-guu3xh-2-kquOAe{
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-family: Euclid;
+    
+    box-sizing: border-box;
+    display: grid;
+    grid-area: 13 / 1 / 14 / 8;
+    grid-template-columns: 1px repeat(5, minmax(170px, 1fr)) 1px;
+    column-gap: 1rem;
+}
+
+.PricingTablestyled__FeatureCategoryTitle-sc-guu3xh-19, .lbirfO{
+
+    color: #212529;
+    text-align: left;
+    
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-family: Euclid;
+    font-weight: 500;
+    line-height: 110%;
+    margin: 0px;
+}
+
+

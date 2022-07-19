@@ -1,0 +1,250 @@
+.Overlay-sc-2pwypl-0, .fzGOgQ, .modalOverlay{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgba(25, 32, 51, 0.2);
+    z-index: 9999;
+    overflow: auto;
+}
+
+.Flex-sc-ws1hvn-0{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.Card__StyledRebassCard-sc-1gcrrp6-1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 16px;
+    overflow: hidden;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, transform 0.15s ease-in-out 0s;
+    cursor: default;
+    padding: 40px;
+    border-radius: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+
+    /* tronghoang */
+    position: absolute;
+    top:50px;
+    width: 400px;
+    height: 600px;
+}
+
+.FileTooBigModalStyled__IconContainer-sc-h0eqkf-3, .fJaFAa{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    height: 8.75rem;
+    width: 8.75rem;
+    border-radius: 50%;
+    background-color: rgba(255, 84, 84, 0.1);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+
+.FileTooBigModalStyled__HeadlineStyled-sc-h0eqkf-0, .kVaSmn{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    font-size: 1.125rem;
+    color: rgb(25, 32, 51);
+    margin-bottom: 16px;
+    margin-top: 48px;
+}
+
+.FileTooBigModalStyled__MessageStyled-sc-h0eqkf-1, .hqYUmQ{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    line-height: 1.5;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(25, 32, 51);
+    margin-bottom: 48px;
+    text-align: center;
+    max-width: 28.125rem;
+}
+
+
+.sc-gGCDDS, .bYNRNv, .FileTooBigModalStyled__UpgradeButtonStyled-sc-h0eqkf-5, .jivczr{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    padding: 4px 4px 4px 11px;
+    border: 1.5px solid transparent;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 163, 26);
+    box-shadow: rgba(255, 163, 25, 0.2) 0px 2px 1px 0px;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    max-width: 18.75rem;
+    height: 4rem;
+    border-radius: 0.9375rem;
+    cursor: pointer;
+}
+
+.sc-clIzBv, .cuXbrX{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    line-height: inherit;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sc-hiwPVj, .eZFkKO, .sc-lcepkR, .evBvrA{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    box-shadow: rgb(255, 153, 0) 0px -0.78px 0.391304px inset;
+    background-color: rgba(232, 120, 16, 0.6);
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0.9375rem;
+    margin-right: 0.375rem;
+    margin-left: 7px;
+}
+
+.sc-bdvvtL, .PYKWr, .sc-ehCJOs, .hWUYuu{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    fill: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    vertical-align: middle;
+    stroke-width: 2.25px;
+    overflow: visible;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+
+.FileTooBigModalStyled__BottomLineStyled-sc-h0eqkf-4, .hwEyqD{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+

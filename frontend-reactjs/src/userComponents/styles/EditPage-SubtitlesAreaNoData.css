@@ -1,0 +1,201 @@
+.styles__OuterPanel{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 394px;
+    transition: width 0.3s ease-in-out 0s;
+}
+
+
+.styles__LeftPanel{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border-right: 1px solid rgb(223, 224, 229);
+    display: block;
+    -webkit-box-pack: unset;
+    justify-content: unset;
+    width: 394px;
+    height: 100%;
+}
+
+.PanelLayoutStyled__Container{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PanelLayoutStyled__Header{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    padding: 0px 1rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 5rem;
+}
+
+.PanelLayoutStyled__TitleWrapper{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.PanelLayoutStyled__Title{
+    --colors-dark-grey: #5d647b;
+    color: #212529;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    line-height: 1.2;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px 0.625rem 0px 0px;
+    flex-shrink: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.PanelLayoutStyled__Content{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    padding: 0px 1rem 1rem;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    overflow: hidden scroll;
+}
+
+.SubtitleOptionsModal__Subheading{
+    line-height: 1.5;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(93, 100, 123);
+    margin: 0.2rem 0px 1.5rem;
+    display: block;
+}
+
+.SubtitleOptionButton__Container{
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    background-color: rgb(247, 247, 248);
+    padding: 30px 16px;
+    border-radius: 10px;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.SubtitleOptionButton__StyledIcon{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: none;
+    cursor: pointer;
+    fill: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    vertical-align: middle;
+    overflow: hidden;
+    margin-bottom: 26px;
+    width: 62px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+}
+
+.SubtitleOptionButton__Title{
+     text-transform: none;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-top: 0;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    color: rgb(25, 32, 51);
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.SubtitleOptionButton__SubTitle{
+    line-height: inherit;
+    text-transform: none;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(25, 32, 51);
+}
+
+.SubtitleOptionsModal__OptionsWrapper{
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+    gap: 16px;
+}

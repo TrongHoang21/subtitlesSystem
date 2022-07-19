@@ -1,0 +1,5311 @@
+
+.DeleteOverlay_Item{
+  position: relative;
+  top: 0%;
+  left: 45%;
+  color: #FF6E6E;
+}
+
+.DeleteOverlay{
+  position: relative; 
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(174, 160, 160, 0.5); 
+
+  cursor: pointer; 
+} 
+
+.DeleteButton_Cancel{
+  color: rgb(25, 118, 210);
+  cursor: pointer;
+}
+
+.DeleteButton_Enable{
+  color: red;
+  cursor: pointer;
+}
+
+
+
+.root_userpage{
+  width: 1000px;
+}
+
+.app_userpage{
+  width: 1000px;
+}
+
+.DashboardPage__Container-sc-3yhjw6-0, .iHFMtS{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  max-height: 100vh;
+  height: 100vh;
+  padding: 0rem;
+  flex-direction: column;
+  user-select: none;
+  display: grid;
+  grid-template-columns: calc(5rem + 1px) 18rem auto;
+}
+.DashboardPage__Sidebar-sc-3yhjw6-3, .ejelvk{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.DashboardPage__Workspaces-sc-3yhjw6-4, .tygxj{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.WorkspaceSwitcherstyled__Container-sc-19le8g2-0, .knjqdc{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  padding: 1rem 1rem 0px;
+  flex-direction: column;
+}
+.WorkspaceSwitcherstyled__StyledNavLink-sc-19le8g2-1, .kwoRMJ{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-color: initial;
+  color: #007bff;
+  text-decoration: none;
+  opacity: 0.2;
+  margin-bottom: 2rem;
+}
+.WorkspaceSwitcherstyled__DefaultWorkspaceIcon-sc-19le8g2-4, .hviNjU{
+  color: #FF6E6E;
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  color: #007bff;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.5rem;
+  margin-right: 0px;
+  object-fit: cover;
+  background-color: rgb(255, 110, 110);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.WorkspaceSwitcherstyled__IconLabel-sc-19le8g2-5, .jLhSAr{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  color: #007bff;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.5rem;
+  margin-right: 0px;
+  object-fit: cover;
+  background-color: rgb(255, 110, 110);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+
+.WorkspaceSwitcherstyled__StyledNavLink-sc-19le8g2-1, .kwoRMJ, .active{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-color: initial;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  opacity: 1;
+}
+
+
+.WorkspaceSwitcherstyled__StyledButton-sc-19le8g2-2, .liloWO{
+
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  border: none;
+  background: none;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
+.WorkspaceSwitcherstyled__DefaultWorkspaceIcon-sc-19le8g2-4, .ipPQWS{
+
+  user-select: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.5rem;
+  margin-right: 0px;
+  object-fit: cover;
+  background-color: rgb(247, 247, 248);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+
+
+/* CONTAINER INFO */
+
+.Sidebarstyled__Container-sc-7ti4rp-0, .jJZQwQ{
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-color: rgb(223, 224, 229);
+  border-style: solid;
+  border-width: 0px 1px;
+}
+
+.Sidebarstyled__ScrollContainer-sc-7ti4rp-1, .VhBLC{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 1.875rem 1.5rem 0px;
+  border: none;
+  overflow-y: auto;
+  height: calc(100vh - 5rem);
+  padding-bottom: 1.25rem;
+}
+.Sidebarstyled__Logo{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  cursor: pointer;
+  flex-shrink: 0;
+  align-self: flex-start;
+  width: 100px;
+  height: 50px;
+  color: rgb(25, 32, 51);
+  margin-bottom: 2.4375rem;
+}
+
+.AccountHeaderstyled__Container-sc-yp7xxf-0, .flGgtc{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.WorkspaceSwitcherstyled__DefaultWorkspaceIcon-sc-19le8g2-4, .AccountHeaderstyled__StyledDefaultWorkspaceIcon-sc-yp7xxf-6, .hviNjU, .kjPFZS{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  margin-right: 0px;
+  object-fit: cover;
+  background-color: rgb(255, 162, 110);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 0px;
+}
+.WorkspaceSwitcherstyled__IconLabel-sc-19le8g2-5, .jLhSAr{
+
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 2px;
+  text-transform: uppercase;
+}
+
+.AccountHeaderstyled__NameContainer-sc-yp7xxf-1, .fixgre{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.875rem;
+  overflow: hidden;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: auto;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+
+.AccountHeaderstyled__PlanName-sc-yp7xxf-2, .kqULBI{
+
+  color: #212529;
+  text-align: left;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: block;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 0.9375rem;
+}
+
+.AccountHeaderstyled__WorkspaceName-sc-yp7xxf-3, .hEiYAr{
+
+  text-align: left;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: block;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(25, 32, 51);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.1875rem;
+  margin-top: 0.0625rem;
+}
+
+.AccountHeaderstyled__DropDownArrow-sc-yp7xxf-5, .kLruDo{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  width: 6;
+  height: 6;
+  fill: currentcolor;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  color: rgb(93, 100, 123);
+  transform: rotate(0deg);
+}
+
+.Sidebarstyled__CreateVideoSidebarButtonStyled-sc-7ti4rp-7, .boYwLp{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin-top: 16px;
+}
+.desktopStyled__OverlayRiser-sc-11u9ifa-0, .eqbrbz{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 13;
+}
+.sc-jrQzAO, .sc-kDTinF, .fBjQgG, .jRAXgT{
+
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  width: 100%;
+  background: rgb(0, 152, 253);
+  border: 1px solid rgb(0, 152, 253);
+  transition: border 0.2s ease-in-out 0s;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  height: 48px;
+  padding: 0px 16px;
+  display: flex;
+  min-width: 87px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sc-iqseJM, .jDvcCQ{
+
+  line-height: inherit;
+  text-transform: none;
+  color: rgb(255, 255, 255);
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin-left: 16px;
+}
+.sc-bdvvtL, .PYKWr{
+
+  line-height: inherit;
+  text-transform: none;
+  color: rgb(255, 255, 255);
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 16;
+  height: 16;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  stroke-width: 2.25px;
+  overflow: visible;
+  opacity: 0.5;
+}
+
+
+.DashboardNavigation__LinksContainer-sc-1hha6q5-0, .gVttvh{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+.DashboardNavigation__NavLink-sc-1hha6q5-1, .hpYvuT, .active{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0px 0.61rem;
+  height: 2.5625rem;
+  border-radius: 8px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(25, 32, 51);
+  background-color: rgb(238, 238, 240);
+}
+.sc-bdvvtL, .bAOjGk{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(25, 32, 51);
+  width: 20;
+  height: 20;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  stroke-width: 1.8px;
+  overflow: visible;
+}
+
+.DashboardNavigation__NavLink-sc-1hha6q5-1, .hpYvuT{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-color: initial;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0px 0.61rem;
+  height: 2.5625rem;
+  border-radius: 8px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(93, 100, 123);
+  margin-top: 0.5rem;
+}
+.sc-bdvvtL, .bAOjGk{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(93, 100, 123);
+  width: 20;
+  height: 20;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  stroke-width: 1.8px;
+  overflow: visible;
+}
+
+.sc-hiwPVj, .iiGbIG{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(93, 100, 123);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-radius: 30%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background-color: rgb(255, 163, 26);
+  margin-left: auto;
+}
+.sc-bdvvtL, .PYKWr, .sc-ehCJOs, .bQIAgB{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(93, 100, 123);
+  width: 12;
+  height: 12;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  stroke-width: 2.25px;
+  overflow: visible;
+  filter: drop-shadow(rgba(154, 53, 0, 0.027) 0px 224px 128px) drop-shadow(rgba(154, 53, 0, 0.04) 0px 103.562px 59.1783px) drop-shadow(rgba(154, 53, 0, 0.05) 0px 59.2558px 33.8605px) drop-shadow(rgba(154, 53, 0, 0.06) 0px 35.9678px 20.5531px) drop-shadow(rgba(154, 53, 0, 0.07) 0px 21.6722px 12.3841px) drop-shadow(rgba(154, 53, 0, 0.082) 0px 12.0685px 6.89628px) drop-shadow(rgba(154, 53, 0, 0.11) 0px 5.19057px 2.96604px);
+}
+
+.DashboardNavigation__NavAnchor-sc-1hha6q5-2, .fgIMxl{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-color: initial;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0px 0.61rem;
+  height: 2.5625rem;
+  border-radius: 8px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(93, 100, 123);
+  margin-top: 0.5rem;
+}
+.DashboardNavigationstyled__TabIcon-sc-17x8lz2-0, .jzOWFB{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(93, 100, 123);
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.sc-eCImPb, .fLEWKO{
+
+  text-align: left;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAAgCAMAAACPf244AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAL9UExURUdwTCyt/yii/yyn/1uA6WqT8iqf/0qT9Cyg/02X+C+x/Tmq/yei/3qe8zWo/12C6WyV8VBt5VJ86Xyc9H+f9Fd96Fl352WN8C2h/mtz72x17mhw73eF82Ns7HF78mJv6y+f/iai/15l7Ceg/1lj6n+P9imn/3KF8jWd/mFr61xx6WRy62+K82x18XN/8yid/jaj/iul/lCf+zqg/Vef+0Sm/VeY+mKe+llq6F9u6lZr52py7l5n6yuq/2938XR88nJ78GeK7zKj/lVm52Ob+mBx6Vtt6Sik/3GQ93SJ83eN9G2T822H8naI9XSF9G+C9Cia/i2c/jyj/l2g+0Gj/WmW+Flm6V1q6mZv7V126WF562GB629572Fo7md97m5973uO9mt98nF+8XWC8yuf/iOc/y+n/jOg/k6i/D+d/Vmj+0Of/EuY+0ai/Vqc+mif+lhv52WW+Vto6m6U93CZ+Fhy6GV17mZt72Rw7WF+7WVr7Wdy7niB83KD8WSA71+A6nqJ9HZ/8m6A8W568ml27mZz8Wl68CSW/y6k/jGc/kmg/FWa+maZ+WaT+GeP92KT+GSF7WqS92iB73WQ9Ft/6myH9lRy53CF9W598ld66Wx67jus/jml/kWb/DCq/j6o/mCW+VZh6V5r6mmb+Huc+X6S9Vxz7V586yys/1l26HiV9Gd57jWp/iSa/zmc/VKn/FCc+16l+jCZ/VKi/E+m/Emm/VuX+VJp5mqF71t462mJ9m6L8WqN922E8XuR92+M92yP8GF07XOY9HaR93CJ9n2I9GZ582Rz719v7SWd/1CX+kuk/F6Y+muP9UOp/VJk5lJf52uK9XWM91tq63qE9H2M9Wd18VFu5jSY/Uud+z+Z/ECg/WSi+mJ06nSb+HWN9GaH9HSU926c+HCQ83KT80uQ+kqp/VeT+Vqp/HqW+Ftt62GD9WCO92OJ9miC9Vp66WZ+9Gx48juW/C+u/1yQ+YOW9mF48Fem+0WW+0pg5FuQ9mF89GOI72eR8kld5UAWIDIAAAAYdFJOUwDQ70CQ1c8QkCCQ39+Qv8iQ10Dfv9/v74xVUwcAAAk3SURBVBgZBcEHXFMHAgfg/3svIUAgQgCjJJAAQi3WgYqsVhAHIkOsCxWx/jyrgAP9eaKc+8RR22rdWG0VQcC6KqKAyIFKCKMsEQeYQUKAIAESw0ryct9HAABXZw/mhT6PYtTgYHGJgw0MOs7Vrfq0J9WBkPxHOhbkhhLGrYBe//qZLjF9htPhG56t/vf28/OxCLs2ZS1eRY0RwwBIgMU4+eaq+EidTMfE/+b8tyTHxmAAB1uJLxYsF8Iuw47rtrrw6xBMcpHvCs6kDp2e35UUmg90FheHFPmrFh+ZfFOUb80CSLCszxnzWgEcjzNGpNUgZy/F5lyFO6HG1ehnhf84ug1nNjPdnnzA19Xas3ueaI9hdnLwhFuS84k1eIpppRBicE9hpIUFEuYMMONTJ2D2gbSeCTWX6TT69DWLfTLcl9uqG/EFod8CL39oT/q8oQ2LsKXAiQFBmnP+biDrIAaZII9AGNTXhigChM2ZXtdVuZgnL1MlIksxwLmSxIbBnht1+hsJ05jwwElhXug9DGE7etyZe07Vy59BVlcV21OkI9KLFxVFlJJdMmHrRsmcT58LKMTo7ZsdR4gsHR6vfkyNY5WOGY3uK9ryGJoxylozvOijUVHNncgO7XaWr5SF0+u4djccdj7kxJYHhvBKI10bd/JUG16xDfySgX5i3E8wOz2OfYQmLJJwYMHV/f1nmp+8jfjLbsj2ixDdQ3MrvT5uhDnxZbXYk4qIV5sg5JxXSgSB+fRRTT0pud2aHlqMkUA8ZVipU885xk6rgwJv2Dp76BMs+iR3QfTJghVBqkEBEGp5OQ9dKOEAWB8UM9fh8+tTgunKw0VAcCH8V7bHpcEzQuNU62FFHnfd1v6+7lhn5YCI6tLpCcKNSFPv58K4hlcpgBIKRYV1pmAMf3HbPP48kZwE8o4ZWBEBSf4BMaLr02xPXLSGxgn+siEGhkMcSVqFAYeeaz9SZl1SobrwWExwphCCDtVcZrnZ3SQl0RS/Rfsj7dtgYMfc5lf9cvdetj6QLhWf55Hz0xMOn7uCkejaQwLyJaNyBu2A7Omia+jSJ+oLo8BvOt4copBWru/zdAubL1V6b3yxapl2ERQBsS2dmU0IvI+I2wEJ+Dk1DqbnyIA3/AK9vlwD9X2zv5VN0dBrMSOzkEXUhXF+t51UU6+jBz3GqVkiabnUSjT4AoPvJ80xPL2c4vLeobzzrWuRRxJh9k/kLztTp7rM6+i3dx4SxC+9Tq3cd11410FfOfu9gDWmnjK3e5XLg9FuSs/U2Xd+6WtMHCI5s/XO/fnazoh3e01rYl1akvvJtqDyiPx5U6wFy/hzXe73a1BmtMkc8CQu9iK4HHJCLuo90/br1qb7sDVOkFLMOfBE3ij9VRsSnnK1K0i5W8PiNS1DPn+bLVvufcNX4iZp+mk/vRDpcJWO8BB/PdyTWiSSTJfLCcbaSrq0gFXWBLdhqpdjMbpX6BTRTl3dlvktI1G+jO9Nr7h7cnpuycaBqLX1W8pWFP2kEVT1NhVQ65/PUE3Vvbk5vpZkPPHPmhjUaOLnbM15HBqVwMSuWSHcYHfmRjBvug2TzpA7ld0Iu3/cb04LvgWU683O39AP83MBp7O7FQmHIYUEkgNA0WJqycTaRKdGdmNn6XetPj23I8qnf6JrjKMy2SDzw4JH3uBO08kGNs/gS7u0YR2BXsMOBXvTFySKtxuVyt6d6+hXvKk1q3gDdhMl9z2uUnsz7d2U7xjjGZv++Jbmqk1B7L9J+66ZMsKlbX2LkyW8WUMsl223HXllDnPwbi/i0A6PNNNGkh9uV/p3ize8Mrxv6XL0sule9hzUJbLxsD/XR4ho0w1eoWG1N4ZtIPMIlfmIaG42tIQt+vuN/s/3nSKz16CHdKckHdNxBPwFAHbUAexjXHidq9V9vAOsJf8+indiJr8AG/ZEPQiDrwrhEFbKPniSnAT50vDl3EGg9sFMJzTmmmYh5nUwP0IfKO4sBdW4VphtOLwjeaQ6lYTPWuojTZgW4scenmNFJ2KaRwHOsM0X6g/vTyKpz3cv5SLSol2xfK1/8SxjuiVj969TXLEl7lRyoJg+qK2nsbnptLUHXDQS9p1DaHftocIP3GbaKZVzy0Jlinl8dYeORSl+aIGd88emKGVPf2xNxqBm079eRPGaV9J2jh067dqJdGzv5mfWg5qhiq+CCHVDpMrsltlvPWQwklgIiTbY+CGy7m5vbTPL3Vujmqy47CQIcPZKHwxNhMPZccUA/RUKMvzUSsxsSNkhUUsW+M8jT8pifrvTBrRLdO0+sDUeO0nwfA8by0LFcJ7ydiBnw3BHtOB3s8+nUmy6sckYf7Z2IDcJs/q4AbSv2e8EwTcX6S0Xkw/09SHOzvBm8LT1gGdrqrSaPLDH5yPTSI25V4QLfdlCLrU0pYF6WWrS2/j+6qX97l7uh6x9vjdyfwhmDhFben3RVZ2gRsd41UrF2/LFWlnNL3GptGjYsTVaS3QZSrw3vkQPCdvbRydXwXwRq9Ytr/DY6G7ia4DVos2lNgumEDTW7T61JNJq2mnPhpjLy539qixrZTTacLAG64T+8E6++CT4Mfa5Dh0ygiTZkD7/dAXUzp0IQU773bu0hs4vuSLf0XHFAwM2q6/HxXGmcjIAgqOoMGffubMU4tx5U4BMofSiRnN5W6qEPf6CKsUo4I1Rtg3b8kLCfF47L67O42pZZdNleVPvbWLNif/EnTzzf+ybrZ/vzxrtS5zc2v16im29tFPNjpRq7f6651ARU51y17YVYPcZYJ73AegitU5pOKMhAESI5F6o+lmF6++eBhwvLh6ub3h9Mo575HMjz7etGzsUzl9LLJ0+kYcJHj8V6fhtW+7Pk3BCUgudnccl9PwzTIBFj8Qi01KFrIhopADrsgPwT3wecRJxvo6Vk82nBqEAgh+qdmlSAjoVgQeg+23JqEjVZ3JEv2M7pLXbL9jhaeEaq1ECYFkVonsOQxz0KFMkd790VNPWKN8PC94jBIlWfvUZt0bOoyO2/o3eslLCi1zwwljWlX48xgQ4osRTWrsdf6ZEzeqwjIIAABsGy9IEMXBsf84lMZBjiU1cSeXNCFkYDLkvnqNxoiRACYmFPhiAKoHGb2nm8SUWwLHEczwu2FXaDNmMmgH8H8+ATrnfkXpmAAAAAElFTkSuQmCC");
+  background-size: cover;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  font-size: 9px;
+  font-weight: 900;
+  line-height: 11px;
+  letter-spacing: 0.5px;
+  margin: 4px 8px;
+  padding: 2px 4px;
+  text-transform: capitalize;
+  margin-left: auto;
+}
+
+
+.sc-cxpSdN, .jAMHOQ{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-top: 1px solid rgb(223, 224, 229);
+  margin: 1rem 0px;
+}
+.dashboard_part1_manualcss{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.RootFolderTilestyled__Container-sc-1ya13ul-0, .hOsyUx{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0px 0.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(144, 148, 165);
+  margin-bottom: 0.5rem;
+}
+.RootFolderTilestyled__FolderName-sc-1ya13ul-2, .CKMbd{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: inherit;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.RootFolderTilestyled__PlusIcon-sc-1ya13ul-3, .eLXJrV{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  color: rgb(144, 148, 165);
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  width: 1rem;
+  height: 1rem;
+}
+
+
+.FolderTilestyled__Container-sc-1i5oqmy-1, .fCdWho{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(93, 100, 123);
+}
+.FolderTilestyled__NavLink-sc-1i5oqmy-6, .kCFsRt{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  flex-shrink: 1;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 0.125rem;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  text-decoration: none;
+  color: rgb(93, 100, 123);
+}
+.FolderTilestyled__FolderNameContainer-sc-1i5oqmy-0, .eDMTYr{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(93, 100, 123);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.FolderTilestyled__TypeIcon-sc-1i5oqmy-3, .pXCiT{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  flex-shrink: 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  color: rgb(144, 148, 165);
+}
+
+.InlineEdit__Label-sc-2i0ugd-1, .jBsfQX{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(93, 100, 123);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: .5rem;
+  position: absolute;
+  top: -11111px;
+  left: -11111px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  margin-left: 0.5rem;
+}
+
+.InlineEdit__Input-sc-2i0ugd-0, .bDZWMA, .FolderTilestyled__FolderName-sc-1i5oqmy-2, .cEDOpE{
+
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  line-height: inherit;
+  margin: 0;
+  appearance: none;
+  border: none;
+  outline: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  min-width: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 21ch;
+  color: inherit;
+  background: inherit;
+  pointer-events: none;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.FolderTilestyled__MenuIcon-sc-1i5oqmy-4, .hlPAMr{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: inherit;
+  width: 1rem;
+  height: 1rem;
+  visibility: hidden;
+  margin-right: -0.3125rem;
+  margin-left: 0.5rem;
+}
+
+
+
+
+.FolderTilestyled__Container-sc-1i5oqmy-1, .fCdWho{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(93, 100, 123);
+}
+.FolderTilestyled__NavLink-sc-1i5oqmy-6, .kCFsRt{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  flex-shrink: 1;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 0.125rem;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  text-decoration: none;
+  color: rgb(93, 100, 123);
+}
+.FolderTilestyled__TypeIcon-sc-1i5oqmy-3, .pXCiT{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  flex-shrink: 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  color: rgb(144, 148, 165);
+}
+
+.DeleteTilestyled__DeleteName-sc-1vnhv2f-0, .jLOJYv{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(93, 100, 123);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  padding-left: 0.125rem;
+  margin-left: 0.5rem;
+}
+
+
+
+.Sidebarstyled__CTAWrapper-sc-7ti4rp-6, .gIZwoA{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  padding: 0px 1rem 1rem;
+  box-shadow: rgb(255, 255, 255) 0px -25px 40px 0px;
+  z-index: 1;
+  background: transparent;
+}
+.sc-gGCDDS, .bYNRNv{
+
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  padding: 4px 4px 4px 11px;
+  border: 1.5px solid transparent;
+  border-radius: 10px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 163, 26);
+  box-shadow: rgba(255, 163, 25, 0.2) 0px 2px 1px 0px;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.sc-clIzBv, .cuXbrX{
+
+  user-select: none;
+  line-height: inherit;
+  text-transform: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.sc-hiwPVj, .eZFkKO, .sc-lcepkR, .evBvrA{
+
+  user-select: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-radius: 30%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  box-shadow: rgb(255, 153, 0) 0px -0.78px 0.391304px inset;
+  background-color: rgba(232, 120, 16, 0.6);
+  margin-left: 7px;
+}
+.sc-bdvvtL, .PYKWr, .sc-ehCJOs, .bQIAgB{
+
+  user-select: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  width: 15;
+  height: 15;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  stroke-width: 2.25px;
+  overflow: visible;
+  filter: drop-shadow(rgba(154, 53, 0, 0.027) 0px 224px 128px) drop-shadow(rgba(154, 53, 0, 0.04) 0px 103.562px 59.1783px) drop-shadow(rgba(154, 53, 0, 0.05) 0px 59.2558px 33.8605px) drop-shadow(rgba(154, 53, 0, 0.06) 0px 35.9678px 20.5531px) drop-shadow(rgba(154, 53, 0, 0.07) 0px 21.6722px 12.3841px) drop-shadow(rgba(154, 53, 0, 0.082) 0px 12.0685px 6.89628px) drop-shadow(rgba(154, 53, 0, 0.11) 0px 5.19057px 2.96604px);
+}
+
+
+.DashboardPage__ContentContainer-sc-3yhjw6-1{
+  width: 1000px;
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  flex: 1 1 0%;
+  background-color: rgb(247, 247, 248);
+}
+
+.DashboardPage__Content-sc-3yhjw6-2, .fOUaWG{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  flex: 1 1 0%;
+  background-color: rgb(247, 247, 248);
+  height: 100%;
+}
+
+.manualcss_part2{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+
+/* RIGHT PALLETE */
+.ProjectsPage__Container-sc-qkak3d-0{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+.ProjectsPagestyled__Header-sc-1ansn4h-0, .dDefer{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 11;
+  background: rgb(247, 247, 248);
+  padding: 0px 32px;
+}
+.Breadcrumbsstyled__Container-sc-1722o6r-0, .ccVLro{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(25, 32, 51);
+}
+.Breadcrumbsstyled__NavLink-sc-1722o6r-1, .gbZLyq{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-color: initial;
+  text-decoration: none;
+  display: flex;
+  color: inherit;
+}
+
+.Breadcrumbsstyled__Separator-sc-1722o6r-2, .DNkSi{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(25, 32, 51);
+  width: 24;
+  height: 24;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  margin: 0px 0.45rem;
+  display: none;
+}
+
+
+.ProjectsPagestyled__ActionContainer-sc-1ansn4h-1, .bkwRXN{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+.InviteBar__InviteBarContainer-sc-xgawj2-0, .jpjfiA{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin-right: 1.5rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  pointer-events: auto;
+}
+.InviteBar__InviteButton-sc-xgawj2-1, .dOgnW{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  pointer-events: auto;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(93, 100, 123);
+  margin-right: 1.25rem;
+}
+.InviteBar__AvatarContainer-sc-xgawj2-2, .fDnhXJ{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  pointer-events: auto;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.Avatar__Icon-sc-1yzjx87-0, .jXemal{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  pointer-events: auto;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  -webkit-user-drag: none;
+
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border: 0.25rem solid rgb(247, 247, 248);
+  margin-right: -0.5rem;
+}
+
+
+.ProjectsPagestyled__MagicBellWrapper-sc-1ansn4h-2, .intcmR{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0px 1rem;
+  position: relative;
+}
+
+
+.css-ujd0de{
+
+  user-select: none;
+  backface-visibility: visible;
+  background-clip: border-box;
+  background-color: transparent;
+  background-origin: padding-box;
+  background-position: 0px 0px;
+  background-size: auto;
+  border-radius: 0px;
+  border: 0px;
+  box-shadow: none;
+  box-sizing: content-box;
+  clear: none;
+  clip: auto;
+  color: inherit;
+  direction: inherit;
+  left: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  height: auto;
+  hyphens: manual;
+  letter-spacing: normal;
+  line-height: 1;
+  margin: 0px;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  min-width: 0px;
+  opacity: 1;
+  padding: 0px;
+  perspective: none;
+  right: auto;
+  top: auto;
+  transform: none;
+  text-align: left;
+  text-decoration: none;
+  
+  visibility: inherit;
+  white-space: normal;
+  word-spacing: normal;
+  z-index: auto;
+  display: block;
+  cursor: pointer;
+  position: relative !important;
+  width: 24px !important;
+}
+.css-l12v88{
+
+  user-select: none;
+  color: inherit;
+  direction: inherit;
+  hyphens: manual;
+  letter-spacing: normal;
+  text-align: left;
+  visibility: inherit;
+  white-space: normal;
+  word-spacing: normal;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  position: relative !important;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  
+}
+
+.TemplateCarouselStyled__StyledBox_manualcss_part3{
+  border-radius: 0.625rem;
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border: 0.5px solid rgb(223, 224, 229);
+  padding: 1rem;
+  border-radius: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
+  background-color: rgb(255, 255, 255);
+  margin: 0px 16px;
+  overflow: hidden;
+}
+.TemplateCarouselStyled__TopElements-sc-1jezfh3-1, .jBRbtm{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.TemplateCarouselStyled__TopRight-sc-1jezfh3-2, .jfgdpI{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.sc-furwcr, .fZVnoR, .TemplateCarouselStyled__StyledClickableIcon-sc-1jezfh3-4, .KhSBA{
+
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border: 0px;
+  background: none;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.sc-bdvvtL, .dfyOOG, .TemplateCarouselStyled__StyledIcon-sc-1jezfh3-3, .fBVRaL{
+
+  user-select: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: none;
+  cursor: pointer;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  stroke-width: 1.5px;
+  overflow: visible;
+  width: 8px;
+  height: 8px;
+}
+
+
+.TemplateCarouselStyled__Headline-sc-1jezfh3-5, .hgIooj{
+
+  color: #212529;
+  text-align: left;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  line-height: 1.2;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.sc-fFeiMQ, .eiuSHM{
+
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  background: none;
+  border: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(25, 32, 51);
+  cursor: pointer;
+}
+.sc-bdvvtL, .dfyOOG, .TemplateCarouselStyled__TextButtonIcon-sc-1jezfh3-6, .dyWapX{
+
+  user-select: none;
+  line-height: inherit;
+  text-transform: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(25, 32, 51);
+  cursor: pointer;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  stroke-width: 1.5px;
+  overflow: visible;
+  margin-left: 4px;
+  width: 16px;
+  height: 16px;
+}
+
+
+
+.TemplateCarouselStyled__CarouselWrapper-sc-1jezfh3-7, .JCONN{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  opacity: 1;
+  height: 176px;
+  margin-top: 24px;
+  margin-bottom: 18px;
+  overflow: initial;
+}
+.ElementsCarousel__Container-sc-b7g5zm-0, .dXhUAt{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  position: relative;
+}
+.sc-bBHxTw, .gcZpOw, .ElementsCarousel__RightButton-sc-b7g5zm-3, .kehYMx{
+
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  background: none rgb(247, 247, 248);
+  color: rgb(93, 100, 123);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 1000px;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: -12px;
+  top: calc(50% - 20px);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out 0s;
+  border: 1px solid rgb(223, 224, 229);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.ElementsCarousel__ScrollContainer-sc-b7g5zm-1, .fEuGpU{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  overflow-x: scroll;
+  margin: 0px -1rem;
+  padding: 0px 1rem 4px;
+}
+.TemplateCarouselStyled__ExploreTileLink-sc-1jezfh3-8, .cDaQlE{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-color: initial;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(93, 100, 123);
+  margin-right: 8px;
+}
+.TemplateCarouselStyled__ExploreTile-sc-1jezfh3-9, .fWsqqv{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  color: rgb(93, 100, 123);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 144px;
+  height: 144px;
+  background: rgb(247, 247, 248);
+  border: 1px solid rgb(238, 238, 240);
+  border-radius: 15px;
+}
+.sc-bdvvtL, .dfyOOG{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  color: rgb(93, 100, 123);
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  stroke-width: 1.5px;
+  overflow: visible;
+  width: 40px;
+  height: 40px;
+}
+
+
+.TemplateCarouselStyled__ExploreText-sc-1jezfh3-10, .bnEAPZ{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  color: rgb(93, 100, 123);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin-top: 16px;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.sc-faUpoM, .kQyaHu{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  color: #007bff;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  align-items: flex-start;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  overflow: hidden;
+  position: relative;
+}
+.sc-iAKWXU, .bLInyq{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  color: #007bff;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-style: none;
+  vertical-align: middle;
+  -webkit-user-drag: none;
+  height: 160px;
+}
+.sc-Galmp, .dIvMcD{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  color: #007bff;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  transition: opacity 0.2s ease-in 0s;
+  width: 100%;
+}
+.sc-dvQaRk, .gdaTgp{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  color: #007bff;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+
+.ProjectsPage__Content-sc-qkak3d-1, .iKwHiV{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  flex: 1 1 0%;
+}
+.ProjectsToolbarstyled__Container-sc-1gqabj-0, .GTgZH{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+  height: 56px;
+  position: sticky;
+  padding: 0px 32px;
+  background: rgb(247, 247, 248);
+  z-index: 10;
+  border-style: solid;
+  border-color: rgb(238, 238, 240);
+  border-image: initial;
+  border-width: 0px 0px 1px;
+  top: 64px;
+}
+.ProjectsSearch__SearchWrapper-sc-1oxbyjl-0, .mqsTu{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+.sc-furwcr, .fZVnoR, .ProjectsSearch__StyledClickableIcon-sc-1oxbyjl-2, .gzQfug{
+
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border: 0px;
+  background: none;
+  margin-bottom: 0px;
+  margin-right: 24px;
+  padding-left: 0px;
+  color: rgb(93, 100, 123);
+  cursor: pointer;
+}
+.ProjectsSearch__SearchText-sc-1oxbyjl-4, .gePgoq{
+
+  user-select: none;
+  line-height: inherit;
+  text-transform: none;
+  color: rgb(93, 100, 123);
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+
+.SortBy__SortByWrapper-sc-hnhqkb-2, .cUoTsM{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  align-self: stretch;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px 8px 0px 0px;
+}
+.Button__ResetButton-sc-pgw80u-0, .InlineDropdown__Root-sc-thr1jl-0, .bHWzHe, .YRVte, .SortBy__StyledInlineDropdown-sc-hnhqkb-1, .juBCDV{
+
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-radius: 0;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  border: none;
+  background: none;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+  padding: 0px 16px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.InlineDropdown__NormalWrapper-sc-thr1jl-1, .hGSSa-D{
+
+  line-height: inherit;
+  text-transform: none;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+.InlineDropdown__NormalLabel-sc-thr1jl-2, .kQKuMB{
+
+  line-height: inherit;
+  text-transform: none;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+.InlineDropdown__NormalSelectedLabel-sc-thr1jl-3, .jnlhbD{
+
+  line-height: inherit;
+  text-transform: none;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: rgb(93, 100, 123);
+  margin-right: 0.25rem;
+}
+.InlineDropdown__Icon-sc-thr1jl-5, .lbsccz{
+
+  line-height: inherit;
+  text-transform: none;
+  user-select: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 16;
+  height: 6;
+  fill: currentcolor;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  color: rgb(93, 100, 123);
+}
+
+
+
+
+.ProjectsToolbarstyled__ViewContainer-sc-1gqabj-1, .jeqAEE{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0px 2rem 0px 0px;
+  border-style: solid;
+  border-color: rgb(239, 240, 242);
+  border-image: initial;
+  border-width: 0px 1px;
+  padding: 0px 8px;
+}
+.ProjectsToolbar__StyledGridIcon-sc-hmzt2j-0, .cZYgLD, .ProjectsToolbarstyled__Icon-sc-1gqabj-2, .iAroKI{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  stroke: inherit;
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  margin: 0px 1rem;
+  color: rgb(93, 100, 123);
+}
+.ProjectsToolbar__StyledListIcon-sc-hmzt2j-1, .cbVPak, .ProjectsToolbarstyled__Icon-sc-1gqabj-2, .bBDoUm{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  stroke: inherit;
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  margin: 0px 1rem;
+  color: rgb(144, 148, 165);
+}
+
+
+.sc-fFeiMQ, .cWefUb{
+
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  background: none;
+  border: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(93, 100, 123);
+  cursor: pointer;
+}
+.sc-bdvvtL, .PYKWr{
+
+  user-select: none;
+  line-height: inherit;
+  text-transform: none;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(93, 100, 123);
+  cursor: pointer;
+  width: 16;
+  height: 16;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  stroke-width: 2.25px;
+  overflow: visible;
+  margin-left: 4px;
+}
+
+
+
+.Projectsstyled__GridView-sc-1n6z59b-0, .gHdfCc{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: grid;
+  padding: 0px 32px;
+  grid-template-rows: min-content;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  gap: 2rem;
+}
+.sharedTileStyled__TileContainer-sc-1di0vkm-0, .sharedTileStyled__GridTileContainer-sc-1di0vkm-1, .NewProjectTilestyled__NewProjectTileContainer-sc-1xywq4o-1, .bDVQzV, .hCTnZF, .bcePhl{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.NewProjectTilestyled__NewProjectTileIconContainer-sc-1xywq4o-2, .jDckrr{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  background-color: rgb(238, 238, 240);
+}
+.NewProjectTilestyled__NewProjectTileIcon-sc-1xywq4o-3, .iuVteB{
+
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  color: rgb(144, 148, 165);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+
+.NewProjectTilestyled__NewProjectTileLabel-sc-1xywq4o-4, .qxawp{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  flex: 1 0 auto;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(93, 100, 123);
+  margin-top: 12px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+
+.sharedTileStyled__TileContainer-sc-1di0vkm-0, .sharedTileStyled__GridTileContainer-sc-1di0vkm-1, .bDVQzV, .hCTnZF{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 8px;
+}
+.FolderTilestyled__ThumbnailsContainer-sc-6pgkju-1, .jHOfpq{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  position: relative;
+}
+.FolderTilestyled__Thumbnails-sc-6pgkju-4, .cShSUy{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 80%;
+  padding: 1rem;
+  transform: translate(-50%, -44%);
+}
+.FolderTilestyled__Thumbnail-sc-6pgkju-2, .gCGmvk{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-style: none;
+  vertical-align: middle;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.sharedTileStyled__TileFooter-sc-1di0vkm-3, .FolderTilestyled__FolderTileFooter-sc-6pgkju-5, .hEAfoW, .fcYdWq{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 12px 4px 0px;
+  display: grid;
+  gap: 4px 8px;
+  grid-template-columns: auto minmax(0px, min-content);
+  grid-template-areas: "name name" "counter counter";
+}
+.InlineEdit__Label-sc-2i0ugd-1, .jBsfQX{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: .5rem;
+  position: absolute;
+  top: -11111px;
+  left: -11111px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.InlineEdit__Input-sc-2i0ugd-0, .bDZWMA, .sharedTileStyled__TileItemName-sc-1di0vkm-6, .FolderTilestyled__FolderName-sc-6pgkju-0, .cVtyiq, .fkvVJa{
+
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  line-height: inherit;
+  margin: 0;
+  appearance: none;
+  border: none;
+  outline: none;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(25, 32, 51);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 0px;
+  grid-area: name / name / name / name;
+  pointer-events: none;
+  background-color: inherit;
+}
+.FolderTilestyled__FolderFooterSubtext-sc-6pgkju-3, .iKMUct{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(144, 148, 165);
+  grid-area: counter / counter / counter / counter;
+}
+.sharedTileStyled__TileMenuDots-sc-1di0vkm-5, .jrMZdU{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+  overflow: hidden;
+  transform: rotate(90deg);
+  display: none;
+  grid-area: menu / menu / menu / menu;
+  width: 16px;
+  height: auto;
+  border: 8px solid transparent;
+  border-radius: 50%;
+  box-sizing: content-box;
+  background-color: rgb(247, 247, 248);
+  place-self: end;
+}
+
+.sharedTileStyled__TileContainer-sc-1di0vkm-0, .sharedTileStyled__GridTileContainer-sc-1di0vkm-1, .bDVQzV, .hCTnZF{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 8px;
+}
+.ProjectTilestyled__Thumbnail-sc-12bytdr-0, .kXzXyC{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-style: none;
+  vertical-align: middle;
+  -webkit-user-drag: none;
+  min-height: 10.5rem;
+  width: 100%;
+  border-radius: 0.625rem;
+  /* aspect-ratio: 1 / 1; */
+  background-color: transparent;
+  object-fit: cover;
+  min-width: 14rem;
+}
+.sharedTileStyled__TileFooter-sc-1di0vkm-3, .ProjectTilestyled__ProjectTileFooter-sc-12bytdr-2, .hEAfoW, .iYNvKZ{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 12px 4px 0px;
+  display: grid;
+  gap: 4px 8px;
+  grid-template-columns: auto minmax(0px, min-content);
+  grid-template-areas: "name name" "status date";
+}
+.InlineEdit__Label-sc-2i0ugd-1, .jBsfQX{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: .5rem;
+  position: absolute;
+  top: -11111px;
+  left: -11111px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.InlineEdit__Input-sc-2i0ugd-0, .bDZWMA, .sharedTileStyled__TileItemName-sc-1di0vkm-6, .ProjectTilestyled__ProjectTileName-sc-12bytdr-4, .cVtyiq, .gGUDJh{
+
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  line-height: inherit;
+  margin: 0;
+  appearance: none;
+  border: none;
+  outline: none;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(25, 32, 51);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 0px;
+  background-color: inherit;
+  grid-area: name / name / name / name;
+}
+.ProjectTilestyled__ProjectTileStatus-sc-12bytdr-5, .hYlLHT{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(93, 100, 123);
+  opacity: 0.8;
+  grid-area: status / status / status / status;
+  white-space: nowrap;
+}
+.sharedTileStyled__TileMenuDots-sc-1di0vkm-5, .jrMZdU{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+  overflow: hidden;
+  transform: rotate(90deg);
+  display: none;
+  grid-area: menu / menu / menu / menu;
+  width: 16px;
+  height: auto;
+  border: 8px solid transparent;
+  border-radius: 50%;
+  box-sizing: content-box;
+  background-color: rgb(247, 247, 248);
+  place-self: end;
+}
+
+.sharedTileStyled__ProjectItemDate-sc-1di0vkm-8, .ProjectTilestyled__ProjectEditDate-sc-12bytdr-6, .hqmxmo, .hUfMSC{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(144, 148, 165);
+  opacity: 0.8;
+  justify-self: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  grid-area: date / date / date / date;
+}
+
+.sharedTileStyled__TileContainer-sc-1di0vkm-0, .sharedTileStyled__GridTileContainer-sc-1di0vkm-1, .bDVQzV, .hCTnZF{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 8px;
+}
+.ProjectTilestyled__FallbackThumbnail-sc-12bytdr-1, .ixSzuV{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  min-height: 10.5rem;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  opacity: 0.3;
+  border-radius: 0.625rem;
+  background: linear-gradient(45deg, rgb(0, 148, 255) 0%, rgb(255, 255, 255) 10%, rgb(0, 26, 255) 100%) 0% 0% / 400% 400%;
+  animation: 5s ease 0s infinite normal none running cUFefP;
+  min-width: 14rem;
+}
+.sharedTileStyled__TileFooter-sc-1di0vkm-3, .ProjectTilestyled__ProjectTileFooter-sc-12bytdr-2, .hEAfoW, .iYNvKZ{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 12px 4px 0px;
+  display: grid;
+  gap: 4px 8px;
+  grid-template-columns: auto minmax(0px, min-content);
+  grid-template-areas: "name name" "status date";
+}
+.InlineEdit__Label-sc-2i0ugd-1, .jBsfQX{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: .5rem;
+  position: absolute;
+  top: -11111px;
+  left: -11111px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.InlineEdit__Input-sc-2i0ugd-0, .bDZWMA, .sharedTileStyled__TileItemName-sc-1di0vkm-6, .ProjectTilestyled__ProjectTileName-sc-12bytdr-4, .cVtyiq, .gGUDJh{
+
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  line-height: inherit;
+  margin: 0;
+  appearance: none;
+  border: none;
+  outline: none;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(25, 32, 51);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 0px;
+  background-color: inherit;
+  grid-area: name / name / name / name;
+}
+.ProjectTilestyled__ProjectTileStatus-sc-12bytdr-5, .lmLoLY{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(93, 100, 123);
+  opacity: 0.8;
+  grid-area: status / status / status / status;
+  white-space: nowrap;
+}
+.sharedTileStyled__TileMenuDots-sc-1di0vkm-5, .jrMZdU{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  fill: none;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+  overflow: hidden;
+  transform: rotate(90deg);
+  display: none;
+  grid-area: menu / menu / menu / menu;
+  width: 16px;
+  height: auto;
+  border: 8px solid transparent;
+  border-radius: 50%;
+  box-sizing: content-box;
+  background-color: rgb(247, 247, 248);
+  place-self: end;
+}
+
+.sharedTileStyled__ProjectItemDate-sc-1di0vkm-8, .ProjectTilestyled__ProjectEditDate-sc-12bytdr-6, .hqmxmo, .hUfMSC{
+
+  line-height: 1.5;
+  text-align: left;
+  user-select: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(144, 148, 165);
+  opacity: 0.8;
+  justify-self: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  grid-area: date / date / date / date;
+}
+
+
+.crisp-client{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+.cc-l3zb{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+.cc-lcor{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+
+.cc-1kny{
+
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+
+
+.cc-kv6t{
+
+  -webkit-locale: "vi";
+  unicode-bidi: isolate;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  line-height: 1!important;
+  direction: ltr!important;
+  text-align: left!important;
+  color: #000!important;
+  font-style: normal!important;
+  font-weight: 400!important;
+  text-decoration: none!important;
+  list-style-type: disc!important;
+  display: block!important;
+  font-family: "Crisp Noto Sans Regular","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  font-size: 11px!important;
+  position: relative!important;
+  z-index: 1000000;
+}
+.cc-1xry, .cc-1gmp{
+
+  font-family: "Crisp Noto Sans Regular","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  cursor: auto !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  display: block!important;
+}
+.cc-unoo{
+
+  font-family: "Crisp Noto Sans Regular","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  clear: none !important;
+  clip: auto !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  quotes: "" "" !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  color: #00f!important;
+  text-decoration: none!important;
+  outline: 0!important;
+  position: fixed!important;
+  right: 24px!important;
+  z-index: 2!important;
+  display: block!important;
+  bottom: 20px!important;
+  cursor: pointer!important;
+}
+.cc-1c9v{
+
+  font-family: "Crisp Noto Sans Regular","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  display: block!important;
+  cursor: pointer!important;
+}
+.cc-1bue{
+
+  font-family: "Crisp Noto Sans Regular","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  quotes: "" "" !important;
+  table-layout: auto !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  cursor: pointer!important;
+  text-align: center!important;
+  position: fixed!important;
+  bottom: 96px!important;
+  right: 23px!important;
+  display: none!important;
+  visibility: hidden!important;
+}
+.cc-1bcp{
+
+  font-family: "Crisp Noto Sans Regular","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  cursor: pointer!important;
+  display: block!important;
+}
+.cc-1s28, .cc-kgeu{
+
+  background-attachment: scroll !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  display: inline !important;
+  font-style: inherit !important;
+  left: auto !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  word-spacing: normal !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  cursor: pointer!important;
+  background-color: #fff!important;
+  font-size: 12.8px!important;
+  letter-spacing: .1px!important;
+  line-height: 35px!important;
+  text-align: center!important;
+  hyphens: auto!important;
+  float: right!important;
+  z-index: 1!important;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,.125)!important;
+  height: auto!important;
+  width: 340px!important;
+  padding: 0!important;
+  overflow: hidden!important;
+  position: relative!important;
+  border-radius: 9px!important;
+}
+.cc-tkyh{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  cursor: pointer!important;
+  padding: 13px 25px 13px 19px!important;
+  display: block!important;
+}
+.cc-1t9t{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  cursor: pointer!important;
+  display: block!important;
+  position: relative!important;
+}
+.cc-g0ak, .cc-hy0f{
+
+  background-attachment: scroll !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  letter-spacing: normal !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  word-spacing: normal !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  cursor: pointer!important;
+  background-color: #212121!important;
+  text-align: center!important;
+  line-height: 0!important;
+  height: 20px!important;
+  width: 20px!important;
+  display: inline-block!important;
+  opacity: .6!important;
+  transition: opacity .15s linear!important;
+  border-radius: 20px!important;
+  position: absolute!important;
+  left: 0!important;
+  top: 0!important;
+  z-index: 1!important;
+}
+.cc-xc93{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  cursor: pointer!important;
+  padding-left: 37px!important;
+  position: relative!important;
+  display: block!important;
+}
+.cc-17df{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Bold",sans-serif!important;
+  cursor: pointer!important;
+  color: #212121!important;
+  font-size: 12.4px!important;
+  line-height: 16px!important;
+  letter-spacing: .05px!important;
+  display: block!important;
+}
+.cc-od26, .cc-151q{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Bold",sans-serif!important;
+  cursor: pointer!important;
+  color: #212121!important;
+  font-size: 12.4px!important;
+  line-height: 16px!important;
+  letter-spacing: .05px!important;
+  display: block!important;
+}
+.cc-1rau, .cc-kgeu{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  cursor: pointer!important;
+  color: #919191!important;
+  font-size: 11.6px!important;
+  line-height: 15px!important;
+  letter-spacing: .1px!important;
+  margin-top: 4px!important;
+  display: block!important;
+}
+
+
+.cc-56dg{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  display: inline !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  quotes: "" "" !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  cursor: pointer!important;
+  width: 36px!important;
+  position: absolute!important;
+  right: 0!important;
+  top: 0!important;
+  bottom: 0!important;
+}
+.cc-8exe, .cc-he6y{
+
+  background-attachment: scroll !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  quotes: "" "" !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIj48ZyBmaWxsPSJub25lIj48cGF0aCBkPSJNMCAwaDEwMXYxMDFIMHoiLz48ZyBmaWxsPSIjNzA3NTg0Ij48cGF0aCBkPSJNNDkuNyAyNWExMyAxMyAwIDAxMTMgMTN2OS43YTEzIDEzIDAgMTEtMjYgMFYzOGExMyAxMyAwIDAxMTMtMTN6Ii8+PHBhdGggZD0iTTMxLjggNTkuN2gzNS44YTQuOCA0LjggMCAwMTQuOSA0Ljl2OS4xSDI3di05LjFhNC44IDQuOCAwIDAxNC44LTQuOXoiIG9wYWNpdHk9Ii44Ii8+PC9nPjwvZz48L3N2Zz4=)!important;
+  background-color: #fff!important;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+  cursor: pointer!important;
+  position: absolute!important;
+  right: 0!important;
+  top: 50%!important;
+  transform: translateY(-50%)!important;
+  width: 36px!important;
+  height: 36px!important;
+  display: inline-block!important;
+  border-radius: 36px!important;
+}
+.cc-1h5w, .cc-wsm4{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+  cursor: pointer!important;
+  width: 36px!important;
+  height: 36px!important;
+  display: inline-block!important;
+  border-radius: 36px!important;
+  background-image: url('https://image.crisp.chat/avatar/operator/ca67a5c9-5fcd-4f5f-9eff-a8c1e0b23ed1/240/?1') !important;
+}
+
+
+
+.cc-rzi5{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  cursor: pointer!important;
+  color: #919191!important;
+  border-top: 1px solid rgba(0,0,0,.08)!important;
+  text-align: center!important;
+  display: flex!important;
+}
+.cc-1yk0, .cc-183m{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  display: inline !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  cursor: pointer!important;
+  min-height: 38px!important;
+  padding: 0 0 6px!important;
+  transition: background-color .15s ease-in-out!important;
+  flex: 1!important;
+}
+.cc-1viy{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  cursor: pointer!important;
+  line-height: 18px!important;
+  width: 100%!important;
+  margin-top: 12px!important;
+  display: inline-block!important;
+  transition: transform .15s ease-in-out!important;
+  border: 0!important;
+}
+.cc-16up, .cc-jq4y, .cc-151q{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  display: inline !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Bold",sans-serif!important;
+  color: #5D647B !important;
+  cursor: pointer!important;
+  font-size: 12.4px!important;
+  letter-spacing: .23px!important;
+  padding: 0 10px 0 6px!important;
+}
+
+
+
+.cc-rzi5{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  cursor: pointer!important;
+  color: #919191!important;
+  border-top: 1px solid rgba(0,0,0,.08)!important;
+  text-align: center!important;
+  display: none!important;
+}
+.cc-1yk0, .cc-183m{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  display: inline !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  cursor: pointer!important;
+  min-height: 38px!important;
+  padding: 0 0 6px!important;
+  transition: background-color .15s ease-in-out!important;
+  flex: 1!important;
+}
+.cc-1viy{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Regular",sans-serif!important;
+  cursor: pointer!important;
+  line-height: 18px!important;
+  width: 100%!important;
+  margin-top: 12px!important;
+  display: inline-block!important;
+  transition: transform .15s ease-in-out!important;
+  border: 0!important;
+}
+.cc-16up, .cc-jq4y, .cc-151q{
+
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  display: inline !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  user-select: none!important;
+  font-family: "Crisp Noto Sans Bold",sans-serif!important;
+  color: #5D647B !important;
+  cursor: pointer!important;
+  font-size: 12.4px!important;
+  letter-spacing: .23px!important;
+  padding: 0 10px 0 6px!important;
+}
+
+
+.cc-7doi, .cc-1ada{
+
+  font-family: "Crisp Noto Sans Regular","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  background-attachment: scroll !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  background-color: #5D647B !important;
+  cursor: pointer!important;
+  width: 60px!important;
+  height: 60px!important;
+  display: block!important;
+  border-radius: 60px!important;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,.04)!important;
+  transition: transform .15s ease-in-out!important;
+}
+.cc-1iv2{
+
+  font-family: "Crisp Noto Sans Regular","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  cursor: pointer!important;
+  display: block!important;
+}
+.cc-1yxw{
+
+  font-family: "Crisp Noto Sans Regular","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  height: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  width: auto !important;
+  word-spacing: normal !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  background-size: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  background-position: 0px 0px !important;
+  background-repeat: repeat !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  cursor: pointer!important;
+  position: absolute!important;
+  z-index: 2!important;
+  top: 18px!important;
+  left: 18px!important;
+  display: none!important;
+}
+.cc-16qx, .cc-1eqr{
+
+  font-family: "Crisp Noto Sans Regular","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  left: auto !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  position: static !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  top: auto !important;
+  unicode-bidi: normal !important;
+  
+  visibility: inherit !important;
+  white-space: normal !important;
+  word-spacing: normal !important;
+  z-index: auto !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  background: 0 0!important;
+  border-color: #fff #fff transparent!important;
+  border-style: solid!important;
+  display: inline-block!important;
+  border-radius: 100%!important;
+  animation-name: cc-u611!important;
+  animation-duration: 1s!important;
+  animation-timing-function: linear!important;
+  animation-fill-mode: both!important;
+  animation-iteration-count: infinite!important;
+  cursor: pointer!important;
+  border-width: 2px!important;
+  width: 20px!important;
+  height: 20px!important;
+  opacity: .9!important;
+}
+
+.cc-15mo{
+
+  font-family: "Crisp Noto Sans Regular","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  background-attachment: scroll !important;
+  background-color: transparent !important;
+  bottom: auto !important;
+  clear: none !important;
+  clip: auto !important;
+  color: inherit !important;
+  counter-increment: none !important;
+  counter-reset: none !important;
+  direction: inherit !important;
+  float: none !important;
+  font-style: inherit !important;
+  letter-spacing: normal !important;
+  line-height: inherit !important;
+  list-style-type: inherit !important;
+  list-style-position: outside !important;
+  list-style-image: none !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  quotes: "" "" !important;
+  right: auto !important;
+  table-layout: auto !important;
+  text-align: inherit !important;
+  text-indent: 0px !important;
+  text-transform: none !important;
+  text-rendering: auto !important;
+  unicode-bidi: normal !important;
+  
+  white-space: normal !important;
+  word-spacing: normal !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  column-count: auto !important;
+  column-gap: normal !important;
+  column-width: auto !important;
+  -webkit-text-fill-color: currentcolor !important;
+  -webkit-tap-highlight-color: transparent !important;
+  font-feature-settings: normal !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  hyphens: manual !important;
+  
+  perspective: none !important;
+  perspective-origin: 50% 50% !important;
+  backface-visibility: visible !important;
+  text-shadow: none !important;
+  word-break: normal !important;
+  border-color: currentcolor !important;
+  border-style: none !important;
+  border-width: medium !important;
+  font-variant: normal !important;
+  outline: 0px !important;
+  text-decoration: inherit !important;
+  border-image: none 100% / 1 / 0 stretch !important;
+  border-radius: 0px !important;
+  column-rule: medium none rgb(0, 0, 0) !important;
+  transition: all 0s ease 0s !important;
+  font-size: 11px!important;
+  font-weight: 400!important;
+  -webkit-font-smoothing: subpixel-antialiased!important;
+  margin: 0!important;
+  padding: 0!important;
+  user-select: none!important;
+  cursor: pointer!important;
+  position: absolute!important;
+  z-index: 2!important;
+  visibility: visible!important;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwIiB3aWR0aD0iMzUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxmaWx0ZXIgaWQ9ImEiIGhlaWdodD0iMTM4LjclIiB3aWR0aD0iMTMxLjQlIiB4PSItMTUuNyUiIHk9Ii0xNS4xJSI+PGZlTW9ycGhvbG9neSBpbj0iU291cmNlQWxwaGEiIG9wZXJhdG9yPSJkaWxhdGUiIHJhZGl1cz0iMSIgcmVzdWx0PSJzaGFkb3dTcHJlYWRPdXRlcjEiLz48ZmVPZmZzZXQgZHk9IjEiIGluPSJzaGFkb3dTcHJlYWRPdXRlcjEiIHJlc3VsdD0ic2hhZG93T2Zmc2V0T3V0ZXIxIi8+PGZlR2F1c3NpYW5CbHVyIGluPSJzaGFkb3dPZmZzZXRPdXRlcjEiIHJlc3VsdD0ic2hhZG93Qmx1ck91dGVyMSIgc3RkRGV2aWF0aW9uPSIxIi8+PGZlQ29tcG9zaXRlIGluPSJzaGFkb3dCbHVyT3V0ZXIxIiBpbjI9IlNvdXJjZUFscGhhIiBvcGVyYXRvcj0ib3V0IiByZXN1bHQ9InNoYWRvd0JsdXJPdXRlcjEiLz48ZmVDb2xvck1hdHJpeCBpbj0ic2hhZG93Qmx1ck91dGVyMSIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjA3IDAiLz48L2ZpbHRlcj48cGF0aCBpZD0iYiIgZD0iTTE0LjIzIDIwLjQ2bC05LjY1IDEuMUwzIDUuMTIgMzAuMDcgMmwxLjU4IDE2LjQ2LTkuMzcgMS4wNy0zLjUgNS43Mi00LjU1LTQuOHoiLz48L2RlZnM+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48dXNlIGZpbGw9IiMwMDAiIGZpbHRlcj0idXJsKCNhKSIgeGxpbms6aHJlZj0iI2IiLz48dXNlIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyIiB4bGluazpocmVmPSIjYiIvPjwvZz48L3N2Zz4=)!important;
+  background-size: contain!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+  display: inline-block!important;
+  width: 33px!important;
+  height: 28px!important;
+  top: 18px!important;
+  left: 13px!important;
+}
+
+
+
+
+
+
+
+
+.rc-tooltip, .rc-tooltip-placement-rightrc-tooltip-hidden{
+
+  color: #212529;
+  text-align: left;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: .9;
+  position: absolute;
+  visibility: visible;
+  z-index: 1070;
+  display: none;
+  padding: 9px 0 5px;
+  font-family: Inter,sans-serif;
+  left: -220px;
+  top: -619px;
+}
+.rc-tooltip-content{
+
+  color: #212529;
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  visibility: visible;
+  font-family: Inter,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+.rc-tooltip-arrow{
+
+  color: #212529;
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  visibility: visible;
+  font-family: Inter,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-color: #0000;
+  border-style: solid;
+  height: 0;
+  position: absolute;
+  width: 0;
+  border-width: 0 5px 5px;
+  margin-left: -5px;
+  top: 4px;
+  left: 50%;
+  border-bottom-color: #192033;
+}
+.rc-tooltip-inner{
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  visibility: visible;
+  font-family: Inter,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: 0 0 4px #0000002b;
+  color: #fff;
+  min-height: 34px;
+  padding: 8px 10px;
+  text-align: left;
+  text-decoration: none;
+  background-color: #192033;
+}
+
+
+
+
+
+
+

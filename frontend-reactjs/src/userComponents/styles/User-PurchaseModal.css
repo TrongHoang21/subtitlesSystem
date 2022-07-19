@@ -1,0 +1,2036 @@
+/* TẬN DỤNG 1 VÀI DIV bên Upload form. */
+
+.dialog-content{
+    display: flex;
+    height: 100%;
+    background-color: white;
+    
+}
+
+.left-section{
+    background-color: rgb(247, 247, 248);
+    height: 100%;
+}
+
+/* override default Mui style */
+.MuiDialog-paper{
+    border-radius: 20px;
+    max-width: 900px;
+    height: 400px;
+}
+
+.Button-Pallete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 75px;
+    width: 100%;
+    max-height: 47rem;
+}
+
+.Upload-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dashed rgb(223, 224, 229);
+    background-color: rgba(247, 247, 248, 0.2);
+    border-radius: 0.625rem;
+    cursor: pointer;
+    width: 410px;
+    height: 50%;
+    padding: 32px;
+    margin-bottom: 0.5rem
+
+}
+
+.img-brand{
+    width: 15px;
+    height: 15px;
+}
+
+.Another-Options-Pallete{
+    display: grid;
+    grid-template-rows: repeat(2, 44px);
+    grid-template-columns: repeat(6, 60px);
+    gap: 10px;
+}
+
+.Record-Button{
+    background: transparent;
+    appearance: none;
+    outline: none;
+    padding: 0px;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgb(238, 238, 240);
+    border-radius: 0.625rem;
+    box-shadow: rgb(0 0 0 / 6%) 0px 1px 1px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    grid-area: 1 / 1 / span 2 / 3;
+}
+.BrandKit-Button{
+    background: transparent;
+    appearance: none;
+    outline: none;
+    padding: 0px;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgb(238, 238, 240);
+    border-radius: 0.625rem;
+    box-shadow: rgb(0 0 0 / 6%) 0px 1px 1px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    grid-area: 1 / 3 / span 2 / 5;
+}
+
+.Dropbox-Button{
+    background: transparent;
+    appearance: none;
+    outline: none;
+    padding: 0px;
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgb(238, 238, 240);
+    border-radius: 0.625rem;
+    box-shadow: rgb(0 0 0 / 6%) 0px 1px 1px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    grid-area: 1 / 5 / 2 / span 2;
+}
+
+.Youtube-Button{
+    background: transparent;
+    appearance: none;
+    outline: none;
+    padding: 0px;
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgb(238, 238, 240);
+    border-radius: 0.625rem;
+    box-shadow: rgb(0 0 0 / 6%) 0px 1px 1px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    grid-area: 2 / 5 / auto / span 2;
+}
+
+
+
+
+.Overlay-sc-2pwypl-0, .ghRbXn, .modalOverlay{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgba(25, 32, 51, 0.2);
+    z-index: 1000002;
+    overflow: auto;
+}
+.sc-JEhMO, .Box-sc-s04gd7-0, .Flex-sc-ws1hvn-0, .hqqSzj, .fweNBi, .eskCeN{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    width: 80%;
+
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.sc-JEhMO, .sc-DtmNo, .Card__StyledRebassCard-sc-1gcrrp6-0, .bNiNzD, .uZwmo, .dWSiFn, .Modal__StyledModal-sc-145zwca-0, .cFYheo{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.CloseButtonstyled__Circle-sc-4sjlwi-0, .cyVZRg{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    border: 0px;
+    width: 24px;
+    height: 24px;
+    background: rgb(247, 247, 248);
+    color: rgb(93, 100, 123);
+    border-radius: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+.Modal__ScrollableOverflow-sc-145zwca-2, .gvRjqv{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0.5rem;
+    overflow: auto;
+    border-radius: 15px;
+}
+.Modal__InnerModal-sc-145zwca-1, .dBEeZG{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100%;
+}
+.Modal__MainContent-sc-145zwca-3, .imFexV{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 100%;
+}
+.SinglePlanViewstyled__Grid-sc-11umq2k-0, .foUvbd{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: grid;
+    height: 100%;
+    gap: 1rem;
+    grid-template-columns: 42% 1fr;
+}
+.Sidebarstyled__SidebarContainer-sc-5smszl-0, .fnHMhr{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 2px, rgba(0, 0, 0, 0.03) 0px 100px 80px, rgba(0, 0, 0, 0.02) 0px 41.7776px 33.4221px, rgba(0, 0, 0, 0.02) 0px 22.3363px 17.869px, rgba(0, 0, 0, 0.016) 0px 12.5216px 10.0172px, rgba(0, 0, 0, 0.01) 0px 6.6501px 5.32008px, rgba(0, 0, 0, 0.008) 0px 2.76726px 2.21381px;
+}
+.Sidebarstyled__BackButtonWrapper-sc-5smszl-12, .gGQXpc{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0.5rem 0px 0px 0.5rem;
+}
+.BackButtonstyled__Button-sc-ts4p84-0, .bksrsV{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    padding: 0px;
+    border: 0px;
+    background: none;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sc-bdvvtL, .eoWdFC{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: none;
+    cursor: pointer;
+    width: 18;
+    height: 18;
+    fill: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    vertical-align: middle;
+    stroke-width: 2px;
+    overflow: visible;
+}
+.Sidebarstyled__Header-sc-5smszl-4, .eANrFq{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0 2rem 2rem 3rem;
+}
+.Sidebarstyled__LargeIcon-sc-5smszl-5, .eiFRmy{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border-style: none;
+    vertical-align: middle;
+    -webkit-user-drag: none;
+
+    width: 80px;
+    height: 80px;
+    margin-right: 2rem;
+}
+.Sidebarstyled__Title-sc-5smszl-7, .izutSQ{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(25, 32, 51);
+    margin-bottom: 0.1rem;
+}
+.Sidebarstyled__Description-sc-5smszl-8, .bPcUyh{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    text-align: left;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(93, 100, 123);
+    line-height: 1.125rem;
+}
+.Sidebarstyled__Body-sc-5smszl-6, .hNnOvR{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0px 2rem 0px 3rem;
+}
+.Sidebarstyled__ListWrapper-sc-5smszl-9, .dksTbW{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0px 0px 2rem 0.5rem;
+}
+.FeatureListstyled__List-sc-1kqyj41-0, .kpHOpi{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+}
+.ListItemstyled__Row-sc-ksw2ez-1, .hRYEAT{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    color: rgb(93, 100, 123);
+    font-weight: 500;
+    text-align: left;
+}
+.ListItemstyled__Circle-sc-ksw2ez-0, .bcEHFA{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    cursor: default;
+    font-size: 14px;
+    color: rgb(93, 100, 123);
+    font-weight: 500;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    margin-right: 0.5rem;
+}
+.Sidebarstyled__Footer-sc-5smszl-10, .iAczHR{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border-top: 2px solid rgb(238, 238, 240);
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1rem 0px;
+    margin: auto 3.5rem 1rem;
+}
+.Sidebarstyled__HelpButton-sc-5smszl-11, .fUJuYq{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(25, 32, 51);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    line-height: 0;
+    background: none;
+    border: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.sc-bdvvtL, .dfyOOG{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    text-transform: none;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(25, 32, 51);
+    line-height: 0;
+    cursor: pointer;
+    width: 24;
+    height: 24;
+    fill: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    vertical-align: middle;
+    stroke-width: 1.5px;
+    overflow: visible;
+    margin-right: 0.25rem;
+}
+.ComparePlansLinkstyled__Link-sc-1fer5gt-0, .lgbNWP{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    background-color: initial;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(25, 32, 51);
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.SinglePlanViewstyled__Main-sc-11umq2k-1, .dTNezA{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+.SinglePlanViewstyled__Title-sc-11umq2k-2, .bnQIMO{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    text-align: left;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-top: 0;
+    line-height: 1.2;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.WorkspaceSelectstyled__Container-sc-11zlbra-0, .cGsgZT{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+.FormLabel-sc-9a1mu3-0, .eRljkC{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(25, 32, 51);
+}
+.css-15wcmfh-container{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    box-sizing: border-box;
+    color: rgb(25, 32, 51);
+    width: 100%;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.css-7pg0cj-a11yText{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    color: rgb(25, 32, 51);
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    z-index: 9999;
+    border: 0px;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    padding: 0px;
+    white-space: nowrap;
+}
+.css-7pg0cj-a11yText{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    color: rgb(25, 32, 51);
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    z-index: 9999;
+    border: 0px;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    padding: 0px;
+    white-space: nowrap;
+}
+.css-1dkg1j6-control{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(25, 32, 51);
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-align: center;
+    align-items: center;
+    border-color: rgb(223, 224, 229);
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 38px;
+    position: relative;
+    transition: all 100ms ease 0s;
+    box-sizing: border-box;
+    background: transparent;
+    height: 48px;
+    padding: 0px 10px 0px 0px;
+    outline: 0px !important;
+}
+.css-qg6qoc{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(25, 32, 51);
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-align: center;
+    align-items: center;
+    display: grid;
+    flex: 1 1 0%;
+    flex-wrap: wrap;
+    padding: 2px 8px;
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+}
+.css-qc6sy-singleValue{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(51, 51, 51);
+    grid-area: 1 / 1 / 2 / 3;
+    margin-left: 2px;
+    margin-right: 2px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.IconRowstyled__IconContainer-sc-11ncc9k-0, .gSkVGp{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgb(51, 51, 51);
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.WorkspaceListstyled__DefaultWorkspaceIcon-sc-lqjdao-5, .WorkspaceIcon__StyledDefaultWorkspaceIcon-sc-1sp8mwg-1, .dRLYPU, .eWKdBV{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgb(51, 51, 51);
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(255, 110, 110);
+    border-radius: 0.5rem;
+    flex-shrink: 0;
+    margin-bottom: 0px;
+    width: 2rem;
+    height: 2rem;
+}
+.WorkspaceListstyled__IconLabel-sc-lqjdao-4, .WorkspaceIcon__StyledIconLabel-sc-1sp8mwg-2, .bhIMQW, .frEjFD{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    font-family: Inter, sans-serif;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.75rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: right;
+    font-size: 1rem;
+}
+.IconRowstyled__Text-sc-11ncc9k-1, .YNJxX{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgb(51, 51, 51);
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-left: 1rem;
+}
+.css-ackcql{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    margin: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    visibility: visible;
+    color: rgb(51, 51, 51);
+    flex: 1 1 auto;
+    display: inline-grid;
+    grid-area: 1 / 1 / 2 / 3;
+    grid-template-columns: 0px min-content;
+    box-sizing: border-box;
+}
+.css-1wy0on6{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(25, 32, 51);
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-align: center;
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.css-1hyfx7x{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(25, 32, 51);
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: none;
+}
+.PaymentPlanTabstyled__Container-sc-v1pdnw-0, .kdPoft{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.PaymentPlanTabstyled__PlanIntervalTitle-sc-v1pdnw-9, .gBHrjP{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.PlanIntervalsstyled__Grid-sc-1gq1nu3-0, .eaEpkU{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+}
+.PlanIntervalsstyled__PlanInterval-sc-1gq1nu3-1, .iqHNLe{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    background: rgb(239, 249, 255);
+    border: 1.5px solid rgb(103, 193, 255);
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 0.9375rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    opacity: 1;
+    color: rgb(0, 152, 253);
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 6rem;
+    padding: 0px;
+}
+.PlanIntervalsstyled__IntervalGroup-sc-1gq1nu3-2, .kVRKed{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    color: rgb(0, 152, 253);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+.PlanIntervalsstyled__Circle-sc-1gq1nu3-3, .frMFzJ{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    color: rgb(0, 152, 253);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    border: 4px solid rgb(0, 152, 253);
+    margin-right: 0.5rem;
+}
+.PlanIntervalsstyled__Name-sc-1gq1nu3-4, .iXdBNG{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    color: rgb(0, 152, 253);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.PlanIntervalsstyled__Sub-sc-1gq1nu3-5, .jDfslP{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    color: rgb(0, 152, 253);
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+.PlanIntervalsstyled__Calculation-sc-1gq1nu3-6, .eCnyQe{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(93, 100, 123);
+}
+.PlanIntervalsstyled__BasePrice-sc-1gq1nu3-7, .gFIcgG{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-right: 0.2rem;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(25, 32, 51);
+}
+.PlanIntervalsstyled__PlanInterval-sc-1gq1nu3-1, .cgTrnA{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    border: 1.5px solid rgb(223, 224, 229);
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 0.9375rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    opacity: 1;
+    color: rgb(25, 32, 51);
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 6rem;
+    padding: 0px;
+}
+.PlanIntervalsstyled__IntervalGroup-sc-1gq1nu3-2, .kVRKed{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    color: rgb(25, 32, 51);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+.PlanIntervalsstyled__Circle-sc-1gq1nu3-3, .fldZzU{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    color: rgb(25, 32, 51);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    border: 2px solid rgb(144, 148, 165);
+    margin-right: 0.5rem;
+}
+.PlanIntervalsstyled__Name-sc-1gq1nu3-4, .iXdBNG{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    color: rgb(25, 32, 51);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.PlanIntervalsstyled__Calculation-sc-1gq1nu3-6, .eCnyQe{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(93, 100, 123);
+}
+.PlanIntervalsstyled__BasePrice-sc-1gq1nu3-7, .gFIcgG{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-right: 0.2rem;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(25, 32, 51);
+}
+.PaymentPlanTabstyled__Body-sc-v1pdnw-5, .jwcfWU{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+.PaymentPlanTabstyled__InputGrid-sc-v1pdnw-7, .dWBMgM{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: grid;
+    column-gap: 1rem;
+    grid-template-columns: 1fr;
+}
+.sc-khQegj, .jqDpB, .PaymentPlanTabstyled__StyledInput-sc-v1pdnw-6, .bEndeF{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.sc-jgrJph, .jkfuxu{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    border-radius: 0.5rem;
+    font-size: inherit;
+    border: 1px solid rgb(223, 224, 229);
+    order: 2;
+    color: rgb(93, 100, 123);
+    opacity: 1;
+    background: none;
+    padding: 0.875rem;
+}
+.sc-hUpaCq, .doaakO{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    width: 100%;
+    display: inline-block;
+    order: 1;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(25, 32, 51);
+}
+
+.FormLabel-sc-9a1mu3-0, .eRljkC{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(25, 32, 51);
+}
+.StripeCardInputstyled__CardElementWrapper-sc-1fucabw-0, .ehXkVW{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border: 1px solid rgb(223, 224, 229);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.StripeElement, .StripeElement--empty{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+.__PrivateStripeElement{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0px !important;
+    padding: 0px !important;
+    border: none !important;
+    display: block !important;
+    background: transparent !important;
+    position: relative !important;
+    opacity: 1 !important;
+}
+.__PrivateStripeElement-input{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    overflow: visible;
+    border: none !important;
+    display: block !important;
+    position: absolute !important;
+    height: 1px !important;
+    top: -1px !important;
+    left: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100% !important;
+    opacity: 0 !important;
+    background: transparent !important;
+    pointer-events: none !important;
+    font-size: 16px !important;
+}
+.PaymentPlanTabstyled__Footer-sc-v1pdnw-4, .iMOstU{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+.PaymentPlanTabstyled__ErrorTextContainer-sc-v1pdnw-10, .iLufgX{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    height: 35px;
+}
+.FormButtonsstyled__Group-sc-16d3kqm-0, .kYeYSc{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-weight: 400;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    grid-template-columns: 1fr 30%;
+}
+.sc-jrQzAO, .sc-kDTinF, .fBjQgG, .dTBbnP, .FormButtonsstyled__SubmitButton-sc-16d3kqm-1, .koPoel{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    width: 100%;
+    border: 1px solid rgb(0, 152, 253);
+    transition: border 0.2s ease-in-out 0s;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 48px;
+    padding: 0px 16px;
+    min-width: 87px;
+    -webkit-box-align: center;
+    align-items: center;
+    user-select: none;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: rgb(0, 152, 253);
+    cursor: pointer;
+}
+.FormButtonsstyled__Price-sc-16d3kqm-2, .fPUhjD{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: inherit;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    user-select: none;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sc-jrQzAO, .sc-kDTinF, .fBjQgG, .jBbHSx{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    width: 100%;
+    
+    border: 1px solid rgb(238, 238, 240);
+    transition: border 0.2s ease-in-out 0s;
+    color: rgb(25, 32, 51);
+    border-radius: 10px;
+    height: 48px;
+    padding: 0px 16px;
+    display: flex;
+    min-width: 87px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    user-select: none;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.TermsAndPrivacystyled__Text-sc-n9dlqq-0, .hoDNJR{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    line-height: 1.5;
+    text-align: left;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(93, 100, 123);
+}
